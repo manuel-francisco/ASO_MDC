@@ -3,15 +3,16 @@ name: Build PDF from Markdown
 on:
   push:
     branches:
-      - ASO-1/programacion
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-        
+        uses: actions/checkout@v4
+
       - name: Install Pandoc and LaTeX
         run: |
           sudo apt-get update
@@ -22,7 +23,7 @@ jobs:
           pandoc README.md -o programacion_ASO.pdf --pdf-engine=xelatex
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: programacion_ASO
           path: programacion_ASO.pdf
