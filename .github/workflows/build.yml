@@ -1,0 +1,28 @@
+name: Build PDF from Markdown
+
+on:
+  push:
+    branches:
+      - ASO-1/programacion
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended
+
+      - name: Convert README.md to PDF
+        run: |
+          pandoc README.md -o programacion_ASO.pdf --pdf-engine=xelatex
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: programacion_ASO
+          path: programacion_ASO.pdf
