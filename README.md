@@ -111,10 +111,10 @@ La organización se estructura en **5 bloques temáticos** con 15 unidades didá
 #### Primer trimestre (14 semanas → 70 h)  
 Se completan los **Bloques 0 y 1**.  
 - **Bloque 0: Preparación**  
-  - U1: Introducción al scripting en sistemas operativos (RA7) → 10 h  
-  - U2: Instalación avanzada de Windows y Windows Server (RA2) → 5 h  
-  - U3: Instalación avanzada de Linux (RA2) → 10 h  
-  - U4: Técnicas de clonación de sistemas en red (RA2) → 5 h  
+  - U1: Instalación avanzada de Windows y Windows Server (RA2) → 5 h  
+  - U2: Instalación avanzada de Linux (RA2) → 10 h  
+  - U3: Técnicas de clonación de sistemas en red (RA2) → 5 h  
+  - U4: Introducción al scripting en sistemas operativos (RA7) → 10 h  
 
 - **Bloque 1: Administración de Linux**  
   - U5: Administración básica de sistemas Linux (RA2) → 10 h  
@@ -146,10 +146,10 @@ Se completa el **Bloque 4**.
 
 | Bloque | Unidad Didáctica | Resultados de Aprendizaje (RA) | Horas aprox. | Evaluación |
 |--------|------------------|--------------------------------|--------------|------------|
-| 0 | U1: Introducción al scripting en sistemas operativos | RA7 | 10 h | 1º Trimestre |
-| 0 | U2: Instalación avanzada de Windows y Windows Server | RA2 | 5 h | 1º Trimestre |
-| 0 | U3: Instalación avanzada de Linux | RA2 | 10 h | 1º Trimestre |
-| 0 | U4: Técnicas de clonación de sistemas en red | RA2 | 5 h | 1º Trimestre |
+| 0 | U1: Instalación avanzada de Windows y Windows Server | RA2 | 5 h | 1º Trimestre |
+| 0 | U2: Instalación avanzada de Linux | RA2 | 10 h | 1º Trimestre |
+| 0 | U3: Técnicas de clonación de sistemas en red | RA2 | 5 h | 1º Trimestre |
+| 0 | U4: Introducción al scripting en sistemas operativos | RA7 | 10 h | 1º Trimestre |
 | 1 | U5: Administración básica de sistemas Linux | RA2 | 10 h | 1º Trimestre |
 | 1 | U6: Automatización de tareas en Linux | RA3 | 10 h | 1º Trimestre |
 | 1 | U7: Administración remota de sistemas Linux | RA4 | 10 h | 1º Trimestre |
@@ -187,12 +187,12 @@ Se completa el **Bloque 4**.
 | Resultado de Aprendizaje (RA) | Unidades Didácticas Asociadas | Horas | % sobre 175h |
 |-------------------------------|-------------------------------|-------|--------------|
 | RA1 – Servicio de directorio | U10 (Active Directory) | 20 h | 11,4 % |
-| RA2 – Procesos e instalación de sistemas | U2 (5h), U3 (10h), U4 (5h), U5 (10h), U8 (10h) | 40 h | 22,9 % |
+| RA2 – Procesos e instalación de sistemas | U1 (5h), U2 (10h), U3 (5h), U5 (10h), U8 (10h) | 40 h | 22,9 % |
 | RA3 – Automatización de tareas | U6 (10h), U9 (10h) | 20 h | 11,4 % |
 | RA4 – Administración remota | U7 (10h), U11 (10h) | 20 h | 11,4 % |
 | RA5 – Red e impresión | U15 (25h) | 25 h | 14,3 % |
 | RA6 – Integración de sistemas | U12 (10h), U13 (20h), U14 (10h) | 40 h | 22,9 % |
-| RA7 – Scripting | U1 (10h) | 10 h | 5,7 % |
+| RA7 – Scripting | U4 (10h) | 10 h | 5,7 % |
 | **Total** | — | **175 h** | **100 %** |
 
 ### 4.2. Resultados de Aprendizaje y Criterios de Evaluación
@@ -292,10 +292,10 @@ Se completa el **Bloque 4**.
 
 | Unidad Didáctica | Título | Resultado de Aprendizaje (RA) |
 |------------------|--------|-------------------------------|
-| U1 | Introducción al scripting en sistemas operativos | RA7 |
-| U2 | Instalación avanzada de Windows y Windows Server | RA2 |
-| U3 | Instalación avanzada de Linux | RA2 |
-| U4 | Técnicas de clonación de sistemas en red | RA2 |
+| U1 | Instalación avanzada de Windows y Windows Server | RA2 |
+| U2 | Instalación avanzada de Linux | RA2 |
+| U3 | Técnicas de clonación de sistemas en red | RA2 |
+| U4 | Introducción al scripting en sistemas operativos | RA7 |
 | U5 | Administración básica de sistemas Linux | RA2 |
 | U6 | Automatización de tareas en Linux | RA3 |
 | U7 | Administración remota de sistemas Linux | RA4 |
