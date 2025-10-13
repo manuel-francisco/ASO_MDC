@@ -1,0 +1,39 @@
+name: Bash Syntax and Permissions Check
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/01_basics/**/*.sh'
+
+jobs:
+  bash-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Find scripts in Fase 1
+        run: |
+          echo "Listing all .sh files in scripts/01_basics/"
+          find scripts/01_basics -type f -name "*.sh"
+
+      - name: Syntax check with bash -n
+        run: |
+          for file in $(find scripts/01_basics -type f -name "*.sh"); do
+            echo "🔍 Checking syntax of $file"
+            bash -n "$file"
+          done
+
+      - name: Check for shebang
+        run: |
+          for file in $(find scripts/01_basics -type f -name "*.sh"); do
+            head -n 1 "$file" | grep -q "#!/bin/bash" \
+              || (echo "❌ $file: missing or incorrect shebang" && exit 1)
+          done
+
+      - name: Check executable permissions
+        run: |
+          for file in $(find scripts/01_basics -type f -name "*.sh"); do
+            [ -x "$file" ] || (echo "❌ $file is not executable" && exit 1)
+          done
+        shell: bash
