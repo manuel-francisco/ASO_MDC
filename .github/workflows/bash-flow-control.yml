@@ -1,0 +1,27 @@
+name: Bash Flow Control Validation
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/02_flow_control/**/*.sh'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Syntax validation
+        run: |
+          for file in $(find scripts/02_flow_control -type f -name "*.sh"); do
+            echo "🔍 Checking syntax of $file"
+            bash -n "$file"
+          done
+
+      - name: Shebang verification
+        run: |
+          for file in $(find scripts/02_flow_control -type f -name "*.sh"); do
+            head -n 1 "$file" | grep -q "#!/bin/bash" \
+              || (echo "❌ $file: missing or incorrect shebang" && exit 1)
+          done
