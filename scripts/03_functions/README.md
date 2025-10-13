@@ -75,7 +75,4 @@ Cada *pull request* que modifique archivos dentro de `scripts/03_functions/` act
 
 ## 🧠 Conclusión
 
-Esta fase consolida el pensamiento estructurado en Bash:  
-> “**divide y vencerás**”.  
-
-El estudiante pasa de escribir scripts lineales a **diseñar herramientas modulares y reutilizables**, sentando las bases para la **automatización avanzada de sistemas (Fase 4)**.
+Esta fase consolida el pensamiento estructurado en Bash. El estudiante pasa de escribir scripts lineales a **diseñar herramientas modulares y reutilizables**, sentando las bases para la **automatización avanzada de sistemas (Fase 4)**.
