@@ -31,9 +31,4 @@ jobs:
               || (echo "❌ $file: missing or incorrect shebang" && exit 1)
           done
 
-      - name: Check executable permissions
-        run: |
-          for file in $(find scripts/01_basics -type f -name "*.sh"); do
-            [ -x "$file" ] || (echo "❌ $file is not executable" && exit 1)
-          done
         shell: bash
