@@ -1,9 +1,9 @@
 #!/bin/bash
 
 read -p "Introduce tu nombre > " NOMBRE # Guarda el nombre de usuario en la variable NOMBRE
+echo "Hola $NOMBRE"
 read -p "Introduce tu edad > " EDAD #Guarda la edad del usuario en la variable EDAD
 
-echo "Hola $NOMBRE"
 if [[ -z $EDAD ]];then # Comprueba si la variable está vacía (string vacío)
 	echo "El campo de edad debe estar relleno"
 else
