@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Definiendo las variables
-NOMBRE="$whoami"
+NOMBRE="$(whoami)"
 CURSO="Segundo de ASIR"
 FECHA="$(date)"
 
