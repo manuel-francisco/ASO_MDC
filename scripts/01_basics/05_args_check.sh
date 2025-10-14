@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Comprobamos que se han introducido exactamente 2 argumentos
-if ! [ $# == 2 ]; then
+if ! [ $# -eq 2 ]; then
     echo "Uso: ./05_args_check.sh <num1> <num2>"
     exit 1
 fi
