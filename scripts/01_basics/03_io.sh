@@ -8,7 +8,7 @@ echo "Introduzca su edad: "
 
 # Confirmación de que la edad introducida es válida.
 
-if [["$EDAD" =^[0-9]+$]]; then
+if [["$EDAD" =~ $REGEX_ENTERO]]; then
 		echo "Esa edad no es válida."
 		exit 
 	else
