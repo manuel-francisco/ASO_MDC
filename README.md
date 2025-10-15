@@ -15,7 +15,7 @@ El módulo profesional **Administración de Sistemas Operativos (ASO)** pertenec
 La evolución tecnológica constante del sector TIC exige profesionales capaces de adaptarse a nuevos entornos y metodologías de trabajo, lo que convierte a este módulo en una pieza clave para la futura inserción laboral del alumnado.  
 
 ### 1.2. Contextualización del módulo en el ciclo formativo  
-Este módulo se imparte en el **segundo curso** del CFGS ASIR, con una carga lectiva de **126 horas** distribuidas en **6 horas semanales**.  
+Este módulo se imparte en el **segundo curso** del CFGS ASIR, con una carga lectiva de **175 horas** distribuidas en **5 horas semanales**.  
 Junto con otros módulos como *Implantación de Sistemas Operativos*, *Fundamentos de Hardware* o *Seguridad y Alta Disponibilidad*, constituye el núcleo formativo orientado a la administración de sistemas informáticos, integrando conocimientos y competencias transversales en el ámbito profesional de la informática.  
 
 ### 1.3. Marco legislativo  
@@ -27,7 +27,7 @@ El desarrollo del presente módulo se apoya en la siguiente normativa:
 - **Real Decreto 1629/2009, de 30 de octubre**, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus enseñanzas mínimas.  
 - **Decreto 436/2008, de 2 de septiembre**, por el que se establecen las enseñanzas de la Formación Profesional inicial en Andalucía.  
 - **Orden de 19 de julio de 2010**, por la que se desarrolla el currículo correspondiente al título de Técnico Superior en ASIR en Andalucía.  
-- Normativa autonómica vigente sobre evaluación, atención a la diversidad y planes educativos transversales.  
+- Normativa autonómica vigente sobre evaluación, atención a la diversidad y planes educativos transversales.
 
 
 ## 2. Objetivos
@@ -113,32 +113,30 @@ Se completan los **Bloques 0 y 1**.
 - **Bloque 0: Preparación**  
   - U1: Instalación avanzada de Windows y Windows Server (RA2) → 5 h  
   - U2: Instalación avanzada de Linux (RA2) → 10 h  
-  - U3: Técnicas de clonación de sistemas en red (RA2) → 5 h  
-  - U4: Introducción al scripting en sistemas operativos (RA7) → 10 h  
+  - U3: Introducción al scripting en sistemas operativos (RA7) → 15 h  
 
 - **Bloque 1: Administración de Linux**  
-  - U5: Administración básica de sistemas Linux (RA2) → 10 h  
-  - U6: Automatización de tareas en Linux (RA3) → 10 h  
-  - U7: Administración remota de sistemas Linux (RA4) → 10 h  
+  - U4: Administración básica de sistemas Linux (RA2) → 10 h  
+  - U5: Automatización de tareas en Linux (RA3) → 10 h  
+  - U6: Administración remota de sistemas Linux (RA4) → 10 h  
 
 #### Segundo trimestre (12 semanas → 60 h)  
 Se completan los **Bloques 2 y 3**.  
 - **Bloque 2: Administración de Windows**  
-  - U8: Administración básica de sistemas Windows (RA2) → 10 h  
-  - U9: Automatización de tareas en Windows (RA3) → 10 h  
-  - U10: Administración de Active Directory (RA1) → 20 h  
-  - U11: Administración remota en entornos Windows (RA4) → 10 h  
+  - U7: Administración básica de sistemas Windows (RA2) → 10 h  
+  - U8: Automatización de tareas en Windows (RA3) → 10 h  
+  - U9: Administración de Active Directory (RA1) → 20 h  
+  - U10: Administración remota en entornos Windows (RA4) → 10 h  
 
 - **Bloque 3: Integración de Sistemas Operativos**  
-  - U12: Protocolos de comunicación y recursos compartidos (RA6) → 10 h  
-  - U13: Implementación de servicios LDAP (RA6) → 20 h  
-  - U14: Integración mediante Windows Subsystem for Linux (WSL) (RA6) → 10 h  
+  - U11: Protocolos de comunicación y recursos compartidos (RA6) → 10 h  
+  - U12: Implementación de servicios LDAP (RA6) → 20 h  
+  - U13: Integración mediante Windows Subsystem for Linux (WSL) (RA6) → 10 h  
 
 #### Tercer trimestre (9 semanas → 45 h)  
 Se completa el **Bloque 4**.  
 - **Bloque 4: Red e impresión**  
-  - U15: Administración de red y servidores de impresión (RA5) → 25 h  
-- Repaso, integración y proyecto final → 20 h  
+  - U14: Administración de red y servidores de impresión (RA5) → 25 h  
 
 **Total: 175 horas.**  
 
@@ -148,19 +146,18 @@ Se completa el **Bloque 4**.
 |--------|------------------|--------------------------------|--------------|------------|
 | 0 | U1: Instalación avanzada de Windows y Windows Server | RA2 | 5 h | 1º Trimestre |
 | 0 | U2: Instalación avanzada de Linux | RA2 | 10 h | 1º Trimestre |
-| 0 | U3: Técnicas de clonación de sistemas en red | RA2 | 5 h | 1º Trimestre |
-| 0 | U4: Introducción al scripting en sistemas operativos | RA7 | 10 h | 1º Trimestre |
-| 1 | U5: Administración básica de sistemas Linux | RA2 | 10 h | 1º Trimestre |
-| 1 | U6: Automatización de tareas en Linux | RA3 | 10 h | 1º Trimestre |
-| 1 | U7: Administración remota de sistemas Linux | RA4 | 10 h | 1º Trimestre |
-| 2 | U8: Administración básica de sistemas Windows | RA2 | 10 h | 1º Trimestre |
-| 2 | U9: Automatización de tareas en Windows | RA3 | 10 h | 2º Trimestre |
-| 2 | U10: Administración de Active Directory | RA1 | 20 h | 2º Trimestre |
-| 2 | U11: Administración remota en entornos Windows | RA4 | 10 h | 2º Trimestre |
-| 3 | U12: Protocolos de comunicación y recursos compartidos | RA6 | 10 h | 2º Trimestre |
-| 3 | U13: Implementación de servicios LDAP | RA6 | 20 h | 1º y 2º Trimestre |
-| 3 | U14: Integración mediante Windows Subsystem for Linux (WSL) | RA6 | 10 h | 3º Trimestre |
-| 4 | U15: Administración de red y servidores de impresión | RA5 | 25 h | 3º Trimestre |
+| 0 | U3: Introducción al scripting en sistemas operativos | RA7 | 15 h | 1º Trimestre |
+| 1 | U4: Administración básica de sistemas Linux | RA2 | 10 h | 1º Trimestre |
+| 1 | U5: Automatización de tareas en Linux | RA3 | 10 h | 1º Trimestre |
+| 1 | U6: Administración remota de sistemas Linux | RA4 | 10 h | 1º Trimestre |
+| 2 | U7: Administración básica de sistemas Windows | RA2 | 10 h | 1º Trimestre |
+| 2 | U8: Automatización de tareas en Windows | RA3 | 10 h | 2º Trimestre |
+| 2 | U0: Administración de Active Directory | RA1 | 20 h | 2º Trimestre |
+| 2 | U10: Administración remota en entornos Windows | RA4 | 10 h | 2º Trimestre |
+| 3 | U11: Protocolos de comunicación y recursos compartidos | RA6 | 10 h | 2º Trimestre |
+| 3 | U12: Implementación de servicios LDAP | RA6 | 20 h | 1º y 2º Trimestre |
+| 3 | U13: Integración mediante Windows Subsystem for Linux (WSL) | RA6 | 10 h | 3º Trimestre |
+| 4 | U14: Administración de red y servidores de impresión | RA5 | 25 h | 3º Trimestre |
 
 #### (1) Número de horas por bloque  
 
@@ -187,12 +184,12 @@ Se completa el **Bloque 4**.
 | Resultado de Aprendizaje (RA) | Unidades Didácticas Asociadas | Horas | % sobre 175h |
 |-------------------------------|-------------------------------|-------|--------------|
 | RA1 – Servicio de directorio | U10 (Active Directory) | 20 h | 11,4 % |
-| RA2 – Procesos e instalación de sistemas | U1 (5h), U2 (10h), U3 (5h), U5 (10h), U8 (10h) | 40 h | 22,9 % |
+| RA2 – Procesos e instalación de sistemas | U1 (5h), U2 (10h), U5 (10h), U8 (10h) | 35 h | 20 % |
 | RA3 – Automatización de tareas | U6 (10h), U9 (10h) | 20 h | 11,4 % |
 | RA4 – Administración remota | U7 (10h), U11 (10h) | 20 h | 11,4 % |
 | RA5 – Red e impresión | U15 (25h) | 25 h | 14,3 % |
 | RA6 – Integración de sistemas | U12 (10h), U13 (20h), U14 (10h) | 40 h | 22,9 % |
-| RA7 – Scripting | U4 (10h) | 10 h | 5,7 % |
+| RA7 – Scripting | U4 (10h) | 15 h | 8,57 % |
 | **Total** | — | **175 h** | **100 %** |
 
 ### 4.2. Resultados de Aprendizaje y Criterios de Evaluación
@@ -294,19 +291,18 @@ Se completa el **Bloque 4**.
 |------------------|--------|-------------------------------|
 | U1 | Instalación avanzada de Windows y Windows Server | RA2 |
 | U2 | Instalación avanzada de Linux | RA2 |
-| U3 | Técnicas de clonación de sistemas en red | RA2 |
-| U4 | Introducción al scripting en sistemas operativos | RA7 |
-| U5 | Administración básica de sistemas Linux | RA2 |
-| U6 | Automatización de tareas en Linux | RA3 |
-| U7 | Administración remota de sistemas Linux | RA4 |
-| U8 | Administración básica de sistemas Windows | RA2 |
-| U9 | Automatización de tareas en Windows | RA3 |
-| U10 | Administración de Active Directory | RA1 |
-| U11 | Administración remota en entornos Windows | RA4 |
-| U12 | Protocolos de comunicación y recursos compartidos | RA6 |
-| U13 | Implementación de servicios LDAP | RA6 |
-| U14 | Integración mediante Windows Subsystem for Linux (WSL) | RA6 |
-| U15 | Administración de red y servidores de impresión | RA5 |
+| U3 | Introducción al scripting en sistemas operativos | RA7 |
+| U4 | Administración básica de sistemas Linux | RA2 |
+| U5 | Automatización de tareas en Linux | RA3 |
+| U6 | Administración remota de sistemas Linux | RA4 |
+| U7 | Administración básica de sistemas Windows | RA2 |
+| U8 | Automatización de tareas en Windows | RA3 |
+| U9 | Administración de Active Directory | RA1 |
+| U10 | Administración remota en entornos Windows | RA4 |
+| U11 | Protocolos de comunicación y recursos compartidos | RA6 |
+| U12 | Implementación de servicios LDAP | RA6 |
+| U13 | Integración mediante Windows Subsystem for Linux (WSL) | RA6 |
+| U14 | Administración de red y servidores de impresión | RA5 |
 
 
 ## 5. Metodología
@@ -447,10 +443,13 @@ Las actividades realizadas en el aula tendrán carácter **no recuperable**.
 - Tanto la evaluación ordinaria como la extraordinaria se centrarán siempre en **todos los RA**, con independencia de que hayan sido o no superados durante la evaluación contínua.
 - El alumnado podrá mejorar nota repitiendo prácticas o realizando actividades de ampliación propuestas por el profesor. Las actividades de ampliación serán propuestas por el profesor siguiendo criterios estadísticos objetivos sobre los resultados globales.
 
+### 6.6. Evaluación de alumnado del plan antiguo FPI a extinguir
+El alumnado matriculado del plan de estudios a extinguir de Formación Profesional Inicial, deberá presentarse a una prueba escrita con contenido teórico y práctico en las fechas oficiales convocadas por el Departamento de Informática. El alumnado matriculado de este plan dispondrá de los mismos recursos y herramientas que el alumnado del plan actual (Grados D), pero no podrá asistir presencialmente a clase.
+
 ## 7. Medidas de atención a la diversidad
 
 ### 7.1. Adaptaciones metodológicas  
-La metodología de este módulo será flexible para ajustarse a las características del grupo y a las necesidades individuales del alumnado. Se dará prioridad a actividades prácticas y a la resolución de problemas reales que favorezcan un aprendizaje significativo. En aquellos casos en los que sea necesario, se proporcionarán recursos adicionales, como apuntes simplificados, guías paso a paso o videotutoriales, con el fin de apoyar el proceso de aprendizaje. Asimismo, el uso de entornos virtualizados permitirá plantear escenarios de distinta complejidad que se adapten a la progresión de cada estudiante.  
+La metodología de este módulo será flexible para ajustarse a las características del grupo y a las necesidades individuales del alumnado. Se dará prioridad a actividades prácticas y a la resolución de problemas reales que favorezcan un aprendizaje significativo. En aquellos casos en los que sea necesario, se proporcionarán recursos adicionales, como apuntes simplificados, guías paso a paso o videotutoriales, con el fin de apoyar el proceso de aprendizaje. Asimismo, el uso de entornos virtualizados permitirá plantear escenarios de distinta complejidad que se adapten a la progresión de cada estudiante. Se contempla también la ampliación del tiempo de las pruebas escritas para facilitar la cumplimentación del instrumento.
 
 ### 7.2. Adaptaciones de acceso  
 Se garantizará la accesibilidad física al aula y a los equipos informáticos, de modo que todo el alumnado pueda participar en las actividades previstas. En caso de necesidad, se permitirá el uso de dispositivos personales o de software adaptado. Además, se fomentará el empleo de documentación digital para facilitar la lectura y evitar posibles barreras de comprensión.  
@@ -459,7 +458,7 @@ Se garantizará la accesibilidad física al aula y a los equipos informáticos, 
 El alumnado que presente dificultades contará con refuerzo en horario lectivo a través de tutorías individuales o en pequeños grupos. Paralelamente, se propondrán actividades de ampliación para quienes progresen más rápidamente, como la resolución de ejercicios avanzados o la investigación sobre tecnologías emergentes. Se promoverá el trabajo colaborativo, de manera que los estudiantes con mayor experiencia puedan ofrecer apoyo a sus compañeros, y se elaborarán actividades de recuperación específicas orientadas a los resultados de aprendizaje que no se hayan superado.  
 
 ### 7.4. Seguimiento individualizado  
-El seguimiento del alumnado se llevará a cabo de forma continua, prestando especial atención a quienes muestren mayores dificultades. En coordinación con el **Departamento de Orientación**, se aplicarán adaptaciones metodológicas individualizadas cuando así se requiera. Además, se mantendrá una comunicación periódica con las familias o tutores legales en el caso de estudiantes con necesidades educativas especiales, con el fin de garantizar una intervención integral y coherente.  
+El seguimiento del alumnado se llevará a cabo de forma continua, prestando especial atención a quienes muestren mayores dificultades. En coordinación con el **Departamento de Orientación**, se aplicarán adaptaciones metodológicas individualizadas cuando así se requiera. Además, se mantendrá una comunicación periódica con las familias o tutores legales en el caso de estudiantes con necesidades educativas especiales, con el fin de garantizar una intervención integral y coherente.
 
 ### 7.5. Principios pedagógicos  
 Las medidas de atención a la diversidad estarán siempre en consonancia con los principios pedagógicos que guían la práctica docente: la normalización e inclusión educativa, la prevención de dificultades y el refuerzo temprano, la flexibilidad metodológica, la igualdad de oportunidades y la no discriminación. Estos principios constituyen la base para garantizar que todo el alumnado, independientemente de sus características personales o de aprendizaje, pueda alcanzar las competencias profesionales previstas en el currículo del módulo.  
@@ -485,7 +484,7 @@ Para el desarrollo del módulo de **Administración de Sistemas Operativos (ASO)
   - Servidores de directorio y servicios de red (Active Directory, OpenLDAP, Samba, CUPS).
 
 - **Plataformas y servicios en línea:**
-  - Plataforma educativa Moodle Centros.
+  - Plataforma educativa Google Classroom.
   - Repositorios Git (GitHub, GitLab) para entrega y seguimiento de prácticas.
   - Documentación técnica en inglés y recursos de fabricantes (Microsoft, Red Hat, Canonical, etc.).
 
@@ -522,7 +521,7 @@ Asimismo, se fomentará la asistencia a ferias y congresos especializados en tec
 
 También se promoverán talleres prácticos impartidos por profesionales externos, especialmente en ámbitos emergentes como la administración de sistemas en la nube, la ciberseguridad avanzada o la automatización mediante contenedores y herramientas DevOps. Por último, se organizarán charlas con antiguos alumnos y representantes de empresas colaboradoras, que permitirán al alumnado conocer experiencias laborales reales, orientaciones sobre la inserción en el mercado de trabajo y posibles itinerarios de formación complementaria.  
 
-Todas estas actividades, complementarias al currículo, contribuirán al desarrollo integral del alumnado, reforzarán su motivación y favorecerán la adquisición de competencias profesionales, personales y sociales en un entorno más amplio que el aula ordinaria.  
+Todas estas actividades, complementarias al currículo, contribuirán al desarrollo integral del alumnado, reforzarán su motivación y favorecerán la adquisición de competencias profesionales, personales y sociales en un entorno más amplio que el aula ordinaria.
 
 ## 10. Planes y programas vinculados al centro
 
@@ -538,7 +537,7 @@ El **Plan de Fomento de la Lectura** se desarrollará en este módulo a través 
 
 Además, el módulo se coordinará con otros programas activos en el centro, como el **Plan de Acción Tutorial**, el **Plan de Digitalización**, el **Plan de Salud Laboral** y las iniciativas relacionadas con la **sostenibilidad medioambiental**. En este último aspecto, se destacará la importancia de la eficiencia energética en centros de datos, el reciclaje responsable de equipos y el uso de software libre como alternativa sostenible.
 
-En conjunto, la integración de estos planes y programas en el desarrollo del módulo ASO contribuye a formar profesionales técnicamente competentes, pero también conscientes de su responsabilidad social, capaces de trabajar en equipo, respetar la diversidad y afrontar los retos del mundo laboral de manera crítica y responsable.
+La integración de estos planes y programas en el desarrollo del módulo ASO contribuye a formar profesionales técnicamente competentes, pero también conscientes de su responsabilidad social, capaces de trabajar en equipo, respetar la diversidad y afrontar los retos del mundo laboral de manera crítica y responsable.
 
 ## 11. Evaluación de la programación didáctica
 
