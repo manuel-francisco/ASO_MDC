@@ -27,6 +27,7 @@ jobs:
           -V TITLE="Administración de Sistemas Operativos" \
           -V CODIGO="0363" \
           -V CICLO="Ciclo Formativo de Grado Superior de Administración de Sistemas Informáticos en Red" \
+          --variable tables-use-row-col-widths=false \
           -o programacion_ASO.pdf
 
       - name: Upload PDF artifact
