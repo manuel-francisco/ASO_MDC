@@ -375,7 +375,7 @@ Los resultados servirán para ajustar la metodología, proponer actividades de r
 ### 6.2. Procedimientos de evaluación  
 La evaluación será **continua y formativa**, teniendo en cuenta tanto el proceso de aprendizaje como los resultados alcanzados.  
 Los procedimientos principales son:  
-- **Observación directa** del trabajo en el aula-taller y de la participación activa en las actividades.  
+- **Observación directa** del trabajo en el aula-taller y de la participación activa en las actividades, así como en trabajos de grupo y actitud. 
 - **Prácticas y proyectos** entregados en cada bloque, valorando funcionalidad, seguridad y documentación.  
 - **Pruebas escritas**, que podrán ser de tres tipos:  
   - Tipo test.  
