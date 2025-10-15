@@ -28,7 +28,7 @@ jobs:
           pandoc README.md \
           --template=template.tex \
           --pdf-engine=xelatex \
-          -V mainfont="Liberation Sans" \
+          -V mainfont="Arial" \
           -V TITLE="Administración de Sistemas Operativos" \
           -V CODIGO="0363" \
           -V CICLO="Ciclo Formativo de Grado Superior de Administración de Sistemas Informáticos en Red" \
