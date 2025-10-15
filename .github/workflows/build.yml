@@ -18,17 +18,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended
 
-      - name: Install Arial font
-        run: |
-          sudo apt-get install -y ttf-mscorefonts-installer fontconfig
-          sudo fc-cache -fv
-
       - name: Convert README.md to PDF
         run: |
           pandoc README.md \
           --template=template.tex \
           --pdf-engine=xelatex \
-          -V mainfont="Arial" \
+          -V mainfont="Liberation Sans" \
           -V TITLE="Administración de Sistemas Operativos" \
           -V CODIGO="0363" \
           -V CICLO="Ciclo Formativo de Grado Superior de Administración de Sistemas Informáticos en Red" \
