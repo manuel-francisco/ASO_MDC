@@ -1,0 +1,66 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{fontspec}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{setspace}
+\usepackage{tocloft}
+\usepackage{etoolbox}
+\usepackage{xcolor}
+
+% ==============================
+% FONT
+% ==============================
+\setmainfont{Arial}
+
+% ==============================
+% HEADER & FOOTER
+% ==============================
+\pagestyle{fancy}
+\fancyhf{} % clear all
+\lhead{\includegraphics[height=1.2cm]{image.png}}
+\lfoot{Módulo \VAR{CODIGO} - Curso \VAR{CURSO}}
+\rfoot{Página \thepage\ de \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% ==============================
+% COVER PAGE
+% ==============================
+\newcommand{\makecover}{
+  \thispagestyle{fancy}
+  \begin{center}
+    \vspace*{0.25\textheight}
+    {\Huge\bfseries PROGRAMACIÓN DIDÁCTICA DEL MÓDULO\par}
+    \vspace{2cm}
+    {\LARGE Código \VAR{CODIGO} – \VAR{TITLE}\par}
+    \vspace{2cm}
+    {\Large \VAR{CICLO}\par}
+  \end{center}
+  \clearpage
+}
+
+% ==============================
+% TABLE OF CONTENTS
+% ==============================
+\setcounter{tocdepth}{2}
+\newcommand{\maketoc}{
+  \thispagestyle{fancy}
+  \tableofcontents
+  \clearpage
+}
+
+% ==============================
+% DOCUMENT BODY
+% ==============================
+\begin{document}
+
+\makecover
+\maketoc
+
+$body$
+
+\end{document}

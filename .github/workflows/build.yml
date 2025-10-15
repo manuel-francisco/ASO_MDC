@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - ASO-1/programacion
+    paths:
+      - README.md
 
 jobs:
   build:
@@ -20,7 +22,14 @@ jobs:
 
       - name: Convert README.md to PDF
         run: |
-          pandoc README.md -o programacion_ASO.pdf --pdf-engine=xelatex
+          pandoc README.md \
+          -o programacion_ASO.pdf \
+          --pdf-engine=xelatex \
+          -V mainfont="Arial" \
+          -V TITLE="Administración de Sistemas Operativos" \
+          -V CODIGO="0363" \
+          -V CICLO="Ciclo Formativo de Grado Superior de Administración de Sistemas Informáticos en Red" \
+          -o PROG_ASO_2ASIR_2526.pdf
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
