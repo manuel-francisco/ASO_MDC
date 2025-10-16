@@ -561,25 +561,25 @@ En definitiva, la evaluación de la programación didáctica se concibe como un 
 
 | Indicador (lista de cotejo) | Sí | No | Observaciones |
 |---|:--:|:--:|---|
-| Composición del departamento didáctico indicada * |  | ✘ | Falta añadir relación nominal de docentes. No se realizará por GDPR/LOPD. |
-| Asignación de materias/ámbitos a los componentes del departamento * |  | ✘ | Falta tabla de asignación docente.  No se realizará por GDPR/LOPD. |
-| Referencias legislativas principales incluidas * | ✔︎ |  | [Marco legislativo](#marco-legislativo) |
-| Coherencia con objetivos/líneas del Proyecto Educativo de Centro | ✔︎ |  | [Principios metodológicos](#principios-metodológicos) / [Planes y programas](#planes-y-programas-vinculados-al-centro) |
-| Relación de elementos curriculares conforme al anexo (RA, criterios, etc.) | ✔︎ |  | [Resultados y criterios](#resultados-de-aprendizaje-y-criterios-de-evaluación) |
-| Concreción curricular acorde al PEC y planes/programas del centro | ✔︎ |  | [Resultados y criterios](#resultados-de-aprendizaje-y-criterios-de-evaluación) / [Planes y programas](#planes-y-programas-vinculados-al-centro) |
-| Distribución temporal realista y adecuada a semanas por trimestre | ✔︎ |  | [Distribución y secuenciación](#distribución-de-contenidos-y-secuenciación-temporal) |
-| Integración de elementos de planes y programas del centro | ✔︎ |  | [Planes y programas vinculados](#planes-y-programas-vinculados-al-centro) |
-| Contribución a **competencias clave** y a objetivos de etapa | ✔︎ |  | [Competencias](#competencias-profesionales-personales-y-sociales) |
-| (FPI) Contribución a **competencias profesionales, personales y sociales** | ✔︎ |  | [Competencias](#ompetencias-profesionales-personales-y-sociales) |
-| **Principios pedagógicos** desarrollados | ✔︎ |  | [Metodología](#metodología) / [Principios pedagógicos](#principios-pedagógicos) |
-| Principio pedagógico relevante vinculado a objetivos del centro | ✔︎ |  | [Principios metodológicos](#principios-metodológicos) / [Planes y programas](#planes-y-programas-vinculados-al-centro) |
-| **Estrategias metodológicas** detalladas y coherentes | ✔︎ |  | [Estrategias](#estrategias-y-técnicas-de-enseñanza-aprendizaje) |
-| **Instrumentos de evaluación** variados y coherentes | ✔︎ |  | [Instrumentos](#instrumentos-de-evaluación) |
-| **Referentes de evaluación** (criterios) detallados | ✔︎ |  | [Resultados y criterios](#resultados-de-aprendizaje-y-criterios-de-evaluación) |
-| **Determinación de la calificación** detallada y vinculada a criterios | ✔︎ |  | [Criterios de calificación](#criterios-de-calificación) |
-| **Evaluación inicial** concretada * | ✔︎ |  | [Evaluación inicial](#evaluación-inicial) |
-| Efectos de la evaluación inicial sobre la programación | ✔︎ |  | [Evaluación inicial](#evaluación-inicial) / [Atención a la diversidad](#medidas-de-atención-a-la-diversidad) |
-| **Medidas de atención a la diversidad** programadas | ✔︎ |  | [Medidas de atención a la diversidad](#medidas-de-atención-a-la-diversidad) |
-| **Recursos y materiales** coherentes con RA y SA | ✔︎ |  | [Materiales y recursos](#materiales-y-recursos-didácticos) |
-| **Actividades complementarias y extraescolares** programadas | ✔︎ |  | [Actividades complementarias](#actividades-complementarias-y-extraescolares) |
-| **Indicadores** para evaluar la programación didáctica | ✔︎ |  | [Evaluación de la programación didáctica](#evaluación-de-la-programación-didáctica) |
+| Composición del departamento didáctico indicada * |  | x | Falta añadir relación nominal de docentes. No se realizará por GDPR/LOPD. |
+| Asignación de materias/ámbitos a los componentes del departamento * |  | x | Falta tabla de asignación docente.  No se realizará por GDPR/LOPD. |
+| Referencias legislativas principales incluidas * | x |  | [Marco legislativo](#marco-legislativo) |
+| Coherencia con objetivos/líneas del Proyecto Educativo de Centro | x |  | [Principios metodológicos](#principios-metodológicos) / [Planes y programas](#planes-y-programas-vinculados-al-centro) |
+| Relación de elementos curriculares conforme al anexo (RA, criterios, etc.) | x |  | [Resultados y criterios](#resultados-de-aprendizaje-y-criterios-de-evaluación) |
+| Concreción curricular acorde al PEC y planes/programas del centro | x |  | [Resultados y criterios](#resultados-de-aprendizaje-y-criterios-de-evaluación) / [Planes y programas](#planes-y-programas-vinculados-al-centro) |
+| Distribución temporal realista y adecuada a semanas por trimestre | x |  | [Distribución y secuenciación](#distribución-de-contenidos-y-secuenciación-temporal) |
+| Integración de elementos de planes y programas del centro | x |  | [Planes y programas vinculados](#planes-y-programas-vinculados-al-centro) |
+| Contribución a **competencias clave** y a objetivos de etapa | x |  | [Competencias](#competencias-profesionales-personales-y-sociales) |
+| (FPI) Contribución a **competencias profesionales, personales y sociales** | x |  | [Competencias](#ompetencias-profesionales-personales-y-sociales) |
+| **Principios pedagógicos** desarrollados | x |  | [Metodología](#metodología) / [Principios pedagógicos](#principios-pedagógicos) |
+| Principio pedagógico relevante vinculado a objetivos del centro | x |  | [Principios metodológicos](#principios-metodológicos) / [Planes y programas](#planes-y-programas-vinculados-al-centro) |
+| **Estrategias metodológicas** detalladas y coherentes | x |  | [Estrategias](#estrategias-y-técnicas-de-enseñanza-aprendizaje) |
+| **Instrumentos de evaluación** variados y coherentes | x |  | [Instrumentos](#instrumentos-de-evaluación) |
+| **Referentes de evaluación** (criterios) detallados | x |  | [Resultados y criterios](#resultados-de-aprendizaje-y-criterios-de-evaluación) |
+| **Determinación de la calificación** detallada y vinculada a criterios | x |  | [Criterios de calificación](#criterios-de-calificación) |
+| **Evaluación inicial** concretada * | x |  | [Evaluación inicial](#evaluación-inicial) |
+| Efectos de la evaluación inicial sobre la programación | x |  | [Evaluación inicial](#evaluación-inicial) / [Atención a la diversidad](#medidas-de-atención-a-la-diversidad) |
+| **Medidas de atención a la diversidad** programadas | x |  | [Medidas de atención a la diversidad](#medidas-de-atención-a-la-diversidad) |
+| **Recursos y materiales** coherentes con RA y SA | x |  | [Materiales y recursos](#materiales-y-recursos-didácticos) |
+| **Actividades complementarias y extraescolares** programadas | x |  | [Actividades complementarias](#actividades-complementarias-y-extraescolares) |
+| **Indicadores** para evaluar la programación didáctica | x |  | [Evaluación de la programación didáctica](#evaluación-de-la-programación-didáctica) |
