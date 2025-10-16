@@ -42,12 +42,16 @@
 % HEADER & FOOTER
 % ==============================
 \pagestyle{fancy}
+% Adjust header spacing
+\setlength{\headheight}{40pt}  % increase if logos are taller
+\setlength{\headsep}{25pt}     % space between header and body
+\addtolength{\topmargin}{-10pt} % fine-tune vertical offset if needed
 \fancyhf{} % clear all
 %\lhead{\includegraphics[width=\textwidth]{image.png}}
 \lhead{%
   \setlength{\tabcolsep}{2pt}
   \renewcommand{\arraystretch}{1.2}
-  \begin{tabular}{|m{3cm}|m{7cm}|m{3cm}|}
+  \begin{tabular}{m{3cm}m{9cm}m{3cm}|}
     \centering\includegraphics[width=2.4cm]{logo_ies.png} &
     \centering
     \textbf{I.E.S. Mar de Cádiz}\\
@@ -67,7 +71,19 @@
 % ==============================
 \newcommand{\makecover}{
   \begin{titlepage}
-    \thispagestyle{empty}
+    \thispagestyle{fancy}
+    \begin{center}
+        \begin{tabular}{m{3cm}m{9cm}m{3cm}|}
+          \centering\includegraphics[width=2.4cm]{logo_ies.png} &
+          \centering
+          \textbf{I.E.S. Mar de Cádiz}\\
+          \textit{Enseñanza - Aprendizaje}\\
+          \textbf{Programación}\\[2pt]
+          Rev. 15/10/2025 &
+          \centering\includegraphics[width=2.8cm]{logo_junta.png} \\
+      \end{tabular}
+    \end{center}
+    \vfill
     \begin{center}
       \vspace*{0.25\textheight}
       {\Huge\bfseries PROGRAMACIÓN DIDÁCTICA DEL MÓDULO\par}
