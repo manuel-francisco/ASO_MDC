@@ -42,20 +42,14 @@
 \definecolor{header}{rgb}{.5, 1, .5}
 \definecolor{rowgray}{gray}{0.95}
 
-% Alternating colors starting from second row
+% Longtable coloring: alternate row colors and header background color
 \AtBeginEnvironment{longtable}{
   \rowcolors{2}{white}{rowgray}
   \setlength{\arrayrulewidth}{0.4pt}
+  \rowcolor{headergray}\toprule % Apply header color explicitly
 }
-
-% Control row colors around headers
-\apptocmd{\toprule}{\hiderowcolors}{}{}
 \apptocmd{\endhead}{\showrowcolors}{}{}
 \apptocmd{\endfirsthead}{\showrowcolors}{}{}
-
-% Patch header content to add rowcolor
-\patchcmd{\endfirsthead}{\\}{\\\rowcolor{header}}{}{}
-\patchcmd{\endhead}{\\}{\\\rowcolor{header}}{}{}
 
 
 % ==============================

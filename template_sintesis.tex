@@ -30,8 +30,7 @@
 \usepackage{needspace}
 \usepackage{etoolbox}
 \preto\longtable{\needspace{10\baselineskip}}
-%unnumberedsections
-\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\setcounter{secnumdepth}{0}
 
 % ==============================
 % STYLES
@@ -41,22 +40,17 @@
 \usepackage{colortbl}       % for \rowcolor
 
 % Define colors
-\definecolor{headergray}{gray}{0.85}
+\definecolor{headergray}{rgb}{.5,1,.5}
 \definecolor{rowgray}{gray}{0.95}
 
 % Longtable coloring: alternate row colors and header background color
 \AtBeginEnvironment{longtable}{
   \rowcolors{2}{white}{rowgray}
-  \setlength{\arrayrulewidth}{0.4pt} % optional border thickness
+  \setlength{\arrayrulewidth}{0.4pt}
+  \rowcolor{headergray}\toprule % Apply header color explicitly
 }
-
-% Disable alternating color during header rows to keep header clear
-\apptocmd{\toprule}{\hiderowcolors}{}{}
 \apptocmd{\endhead}{\showrowcolors}{}{}
 \apptocmd{\endfirsthead}{\showrowcolors}{}{}
-
-% Add background color to header row
-\patchcmd{\longtable}{\toprule}{\rowcolor{headergray}\toprule}{}{}
 
 % ==============================
 % FONT
