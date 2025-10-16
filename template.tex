@@ -19,6 +19,8 @@
 \usepackage{booktabs}
 \usepackage[spanish, es-noshorthands]{babel}
 \usepackage{needspace}
+\usepackage{etoolbox}
+\preto\longtable{\needspace{10\baselineskip}}
 
 % --- Pandoc table width safety fix ---
 \providecommand{\real}[1]{#1} % neutralize \real if undefined

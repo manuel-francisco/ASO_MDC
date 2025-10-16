@@ -24,7 +24,6 @@ jobs:
           pandoc README.md \
           --template=template.tex \
           --pdf-engine=xelatex \
-          --lua-filter=needspace.lua \
           -V mainfont="Liberation Sans" \
           -V fallbackfont="Noto Sans" \
           -V TITLE="Administración de Sistemas Operativos" \
