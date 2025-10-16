@@ -7,18 +7,18 @@ Curso Académico: 2025/2026
 
 ---
 
-## 1. Introducción
+## Introducción
 
-### 1.1. Justificación  
+### Justificación  
 El módulo profesional **Administración de Sistemas Operativos (ASO)** pertenece al segundo curso del ciclo formativo de **Administración de Sistemas Informáticos en Red (ASIR)**. Su finalidad es capacitar al alumnado para instalar, configurar y administrar sistemas operativos, tanto libres como propietarios, asegurando la disponibilidad, seguridad e interoperabilidad de los servicios de red y de los recursos compartidos.  
 
 La evolución tecnológica constante del sector TIC exige profesionales capaces de adaptarse a nuevos entornos y metodologías de trabajo, lo que convierte a este módulo en una pieza clave para la futura inserción laboral del alumnado.  
 
-### 1.2. Contextualización del módulo en el ciclo formativo  
+### Contextualización del módulo en el ciclo formativo  
 Este módulo se imparte en el **segundo curso** del CFGS ASIR, con una carga lectiva de **175 horas** distribuidas en **5 horas semanales**.  
 Junto con otros módulos como *Implantación de Sistemas Operativos*, *Fundamentos de Hardware* o *Seguridad y Alta Disponibilidad*, constituye el núcleo formativo orientado a la administración de sistemas informáticos, integrando conocimientos y competencias transversales en el ámbito profesional de la informática.  
 
-### 1.3. Marco legislativo  
+### Marco legislativo  
 El desarrollo del presente módulo se apoya en la siguiente normativa:  
 
 - **Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE)**, modificada por la **Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE)**.
@@ -30,9 +30,9 @@ El desarrollo del presente módulo se apoya en la siguiente normativa:
 - Normativa autonómica vigente sobre evaluación, atención a la diversidad y planes educativos transversales.
 
 
-## 2. Objetivos
+## Objetivos
 
-### 2.1. Objetivos generales del ciclo formativo  
+### Objetivos generales del ciclo formativo  
 De acuerdo con el **Real Decreto 1629/2009, de 30 de octubre**, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red, los objetivos generales del ciclo son:  
 
 a) Analizar la estructura del software de base, comparando las características y prestaciones de sistemas libres y propietarios, para administrar sistemas operativos de servidor.  
@@ -50,7 +50,7 @@ l) Participar de forma activa en la vida económica, social y cultural con actit
 m) Conocer y aplicar la legislación laboral y los derechos y deberes derivados de las relaciones laborales.  
 n) Trabajar en condiciones de seguridad y salud, identificando riesgos y aplicando medidas preventivas.  
 
-### 2.2. Objetivos generales del módulo  
+### Objetivos generales del módulo  
 Los objetivos específicos del módulo de **Administración de Sistemas Operativos (ASO)** son:  
 
 a) Instalar y configurar sistemas operativos de servidor, siguiendo documentación técnica, para garantizar su funcionalidad.  
@@ -63,9 +63,9 @@ g) Integrar sistemas operativos libres y propietarios, justificando y garantizan
 h) Desarrollar y utilizar scripts para la administración del sistema operativo, aplicando lenguajes de guiones y librerías de funciones.  
 i) Documentar procedimientos, configuraciones y tareas de administración de sistemas operativos de manera clara y estructurada.  
 
-## 3. Competencias profesionales, personales y sociales
+## Competencias profesionales, personales y sociales
 
-### 3.1. Competencias del ciclo formativo  
+### Competencias del ciclo formativo  
 La competencia general del título de **Técnico Superior en Administración de Sistemas Informáticos en Red** consiste en configurar, administrar y mantener sistemas informáticos, garantizando la funcionalidad, la integridad de los recursos y servicios del sistema, con la calidad exigida y cumpliendo la normativa vigente.
 
 Las competencias profesionales, personales y sociales del ciclo son:  
@@ -87,7 +87,7 @@ n) Fomentar el espíritu emprendedor, el autoempleo y la creación de pequeñas 
 o) Participar de manera activa, crítica y responsable en la sociedad y en la vida profesional.  
 p) Conocer y aplicar la normativa laboral, así como las medidas de prevención de riesgos y protección medioambiental.  
 
-### 3.2. Competencias específicas del módulo ASO  
+### Competencias específicas del módulo ASO  
 El módulo de **Administración de Sistemas Operativos** contribuye de manera particular al desarrollo de las siguientes competencias del título:  
 
 a) Administrar sistemas operativos de servidor, instalando y configurando el software en condiciones de calidad.  
@@ -100,9 +100,9 @@ g) Integrar sistemas operativos libres y propietarios en escenarios heterogéneo
 h) Desarrollar y aplicar scripts de administración de servicios y tareas de sistemas operativos.  
 i) Documentar configuraciones, procedimientos y resultados de la administración de sistemas.  
 
-## 4. Contenidos
+## Contenidos
 
-### 4.1. Distribución de contenidos y secuenciación temporal  
+### Distribución de contenidos y secuenciación temporal  
 
 El módulo de **Administración de Sistemas Operativos (ASO)** tiene una duración de **175 horas**, con una carga de **5 horas semanales** durante **35 semanas lectivas**.  
 
@@ -140,9 +140,9 @@ Se completa el **Bloque 4**.
 
 **Total: 175 horas.**  
 
-### 4.1.b. Resumen de la temporalización por bloques y unidades  
+### Resumen de la temporalización por bloques y unidades  
 
-| Bloque | Unidad Didáctica | Resultados de Aprendizaje (RA) | Horas aprox. | Evaluación |
+| Bloque | Unidad Didáctica | RA | Horas aprox. | Evaluación |
 |--------|------------------|--------------------------------|--------------|------------|
 | 0 | U1: Instalación avanzada de Windows y Windows Server | RA2 | 5 h | 1º Trimestre |
 | 0 | U2: Instalación avanzada de Linux | RA2 | 10 h | 1º Trimestre |
@@ -159,7 +159,7 @@ Se completa el **Bloque 4**.
 | 3 | U13: Integración mediante Windows Subsystem for Linux (WSL) | RA6 | 10 h | 3º Trimestre |
 | 4 | U14: Administración de red y servidores de impresión | RA5 | 25 h | 3º Trimestre |
 
-#### (1) Número de horas por bloque  
+#### Número de horas por bloque  
 
 | Bloque | Título | Horas |
 |--------|--------|-------|
@@ -170,7 +170,7 @@ Se completa el **Bloque 4**.
 | 4 | Red e impresión | 25 h |
 | **Total** | — | **175 h** |
 
-#### (2) Número de horas por trimestre  
+#### Número de horas por trimestre  
 
 | Trimestre | Bloques incluidos | Horas |
 |-----------|------------------|-------|
@@ -179,9 +179,9 @@ Se completa el **Bloque 4**.
 | 3º | Bloque 4 | 25 h |
 | **Total** | — | **175 h** |
 
-#### (3) Número de horas por RA  
+#### Número de horas por RA  
 
-| Resultado de Aprendizaje (RA) | Unidades Didácticas Asociadas | Horas | % sobre 175h |
+| RA | UD Asociadas | Horas | % sobre 175h |
 |-------------------------------|-------------------------------|-------|--------------|
 | RA1 – Servicio de directorio | U10 (Active Directory) | 20 h | 11,4 % |
 | RA2 – Procesos e instalación de sistemas | U1 (5h), U2 (10h), U5 (10h), U8 (10h) | 35 h | 20 % |
@@ -192,7 +192,7 @@ Se completa el **Bloque 4**.
 | RA7 – Scripting | U4 (10h) | 15 h | 8,57 % |
 | **Total** | — | **175 h** | **100 %** |
 
-### 4.2. Resultados de Aprendizaje y Criterios de Evaluación
+### Resultados de Aprendizaje y Criterios de Evaluación
 
 **RA1. Administra el servicio de directorio interpretando especificaciones e integrándolo en una red.**  
     a) Se han identificado la función, los elementos y las estructuras lógicas del servicio de directorio.  
@@ -285,9 +285,9 @@ Se completa el **Bloque 4**.
 
 ---
 
-### 4.3. Relación de RA con unidades didácticas  
+### Relación de RA con unidades didácticas  
 
-| Unidad Didáctica | Título | Resultado de Aprendizaje (RA) |
+| UD | Título | RA |
 |------------------|--------|-------------------------------|
 | U1 | Instalación avanzada de Windows y Windows Server | RA2 |
 | U2 | Instalación avanzada de Linux | RA2 |
@@ -305,9 +305,9 @@ Se completa el **Bloque 4**.
 | U14 | Administración de red y servidores de impresión | RA5 |
 
 
-## 5. Metodología
+## Metodología
 
-### 5.1. Principios metodológicos  
+### Principios metodológicos  
 La metodología aplicada en este módulo se basa en los siguientes principios:  
 
 - **Aprendizaje activo y significativo**: los estudiantes construyen su conocimiento a partir de la práctica real y la resolución de problemas.  
@@ -323,7 +323,7 @@ Esta programación se alinea con las **líneas estratégicas del Proyecto Educat
 En el marco del módulo de ASO, estas líneas se concretan en la promoción de un uso responsable y seguro de las tecnologías de la información, la incorporación de referentes femeninos en el ámbito de la informática (contribuyendo al **Plan de Igualdad** del centro), la implementación de dinámicas de trabajo colaborativo que fomenten la cooperación y el respeto (en coherencia con el **Plan de Convivencia y Paz**) y el fomento del uso de software libre y de prácticas de eficiencia energética (vinculadas al **Plan de Sostenibilidad**).  
 
 
-### 5.2. Estrategias y técnicas de enseñanza-aprendizaje  
+### Estrategias y técnicas de enseñanza-aprendizaje  
 - **Clases prácticas en aula-taller**: instalación, configuración y administración de sistemas operativos en entornos virtualizados.  
 - **Aprendizaje basado en problemas (ABP)**: resolución de incidencias de administración de sistemas planteadas como retos reales.  
 - **Aprendizaje cooperativo**: prácticas en parejas o pequeños grupos que simulan roles de administrador y usuario final.  
@@ -332,7 +332,7 @@ En el marco del módulo de ASO, estas líneas se concretan en la promoción de u
 - **Uso de simuladores y máquinas virtuales**: VirtualBox, VMware, Hyper-V, WSL y otros entornos de virtualización.  
 - **Proyectos integrados**: prácticas finales de bloque que combinan varios RA y exigen documentación profesional.  
 
-### 5.3. Actividades del proceso de enseñanza-aprendizaje  
+### Actividades del proceso de enseñanza-aprendizaje  
 - **Actividades iniciales**:  
   - Evaluación de conocimientos previos mediante cuestionarios y pruebas prácticas.  
   - Configuración básica de entornos virtuales y sistemas operativos.  
@@ -352,7 +352,7 @@ En el marco del módulo de ASO, estas líneas se concretan en la promoción de u
   - Exámenes teórico-prácticos por bloque.  
   - Proyecto integrador por RA o bloque.  
 
-### 5.4. Tratamiento de los contenidos transversales  
+### Tratamiento de los contenidos transversales  
 A lo largo del módulo se incorporan de forma transversal los siguientes contenidos:  
 
 - **Sostenibilidad medioambiental**: uso responsable de recursos TIC, eficiencia energética en centros de datos, reciclaje de equipos.  
@@ -362,9 +362,9 @@ A lo largo del módulo se incorporan de forma transversal los siguientes conteni
 - **Inserción laboral y emprendimiento**: preparación de documentación técnica y actitud profesional ante problemas reales.  
 - **Competencia digital avanzada**: uso de documentación en inglés, automatización de procesos, seguridad en redes y sistemas.  
 
-## 6. Evaluación
+## Evaluación
 
-### 6.1. Evaluación inicial  
+### Evaluación inicial  
 Durante las primeras sesiones del curso se realizará una **evaluación inicial** para detectar los conocimientos previos y el nivel de competencia del alumnado.  
 Se utilizarán los siguientes instrumentos:  
 - Cuestionario inicial de conocimientos sobre sistemas operativos.  
@@ -372,7 +372,7 @@ Se utilizarán los siguientes instrumentos:
 
 Los resultados servirán para ajustar la metodología, proponer actividades de refuerzo y organizar los grupos de trabajo.  
 
-### 6.2. Procedimientos de evaluación  
+### Procedimientos de evaluación  
 La evaluación será **continua y formativa**, teniendo en cuenta tanto el proceso de aprendizaje como los resultados alcanzados.  
 Los procedimientos principales son:  
 - **Observación directa** del trabajo en el aula-taller y de la participación activa en las actividades, así como en trabajos de grupo y actitud. 
@@ -392,7 +392,7 @@ Las actividades realizadas en el aula tendrán carácter **no recuperable**.
 - La inasistencia no supone ampliación ni prórroga en la entrega.  
 - Las actividades no entregadas se calificarán con **0**, repercutiendo directamente en la nota de los criterios asociados.  
 
-### 6.3. Criterios de calificación  
+### Criterios de calificación  
 
 1. **Cálculo de la nota final del módulo**  
    - La nota se obtiene mediante la **media ponderada de cada RA** en función del porcentaje de horas sobre el total del módulo (175h).  
@@ -423,7 +423,7 @@ Las actividades realizadas en el aula tendrán carácter **no recuperable**.
      - Nota media ponderada = 5,7  
      - Todos los RA ≥ 5 → **módulo superado** con nota final 5,7.  
 
-### 6.4. Instrumentos de evaluación  
+### Instrumentos de evaluación  
 - **Cuaderno de prácticas** (individual y grupal).  
 - **Rúbricas de evaluación** para scripts, configuraciones y documentación técnica.  
 - **Exámenes escritos** (tipo test, preguntas cortas, problemas de desarrollo).  
@@ -432,7 +432,7 @@ Las actividades realizadas en el aula tendrán carácter **no recuperable**.
 - **Exposiciones** individuales o grupales de proyectos.  
 - **Observación directa** de la actitud, trabajo en equipo y cumplimiento de plazos.  
 
-### 6.5. Recuperación y mejora de resultados  
+### Recuperación y mejora de resultados  
 - La **evaluación continua** se aplicará durante todo el curso.  
 - Los alumnos que no superen todos los RA deberán presentarse en la **evaluación ordinaria** a una:  
   - **Prueba teórica escrita** (con test, preguntas cortas y desarrollo).  
@@ -443,29 +443,29 @@ Las actividades realizadas en el aula tendrán carácter **no recuperable**.
 - Tanto la evaluación ordinaria como la extraordinaria se centrarán siempre en **todos los RA**, con independencia de que hayan sido o no superados durante la evaluación contínua.
 - El alumnado podrá mejorar nota repitiendo prácticas o realizando actividades de ampliación propuestas por el profesor. Las actividades de ampliación serán propuestas por el profesor siguiendo criterios estadísticos objetivos sobre los resultados globales.
 
-### 6.6. Evaluación de alumnado del plan antiguo FPI a extinguir
+### Evaluación de alumnado del plan antiguo FPI a extinguir
 El alumnado matriculado del plan de estudios a extinguir de Formación Profesional Inicial, deberá presentarse a una prueba escrita con contenido teórico y práctico en las fechas oficiales convocadas por el Departamento de Informática. El alumnado matriculado de este plan dispondrá de los mismos recursos y herramientas que el alumnado del plan actual (Grados D), pero no podrá asistir presencialmente a clase.
 
-## 7. Medidas de atención a la diversidad
+## Medidas de atención a la diversidad
 
-### 7.1. Adaptaciones metodológicas  
+### Adaptaciones metodológicas  
 La metodología de este módulo será flexible para ajustarse a las características del grupo y a las necesidades individuales del alumnado. Se dará prioridad a actividades prácticas y a la resolución de problemas reales que favorezcan un aprendizaje significativo. En aquellos casos en los que sea necesario, se proporcionarán recursos adicionales, como apuntes simplificados, guías paso a paso o videotutoriales, con el fin de apoyar el proceso de aprendizaje. Asimismo, el uso de entornos virtualizados permitirá plantear escenarios de distinta complejidad que se adapten a la progresión de cada estudiante. Se contempla también la ampliación del tiempo de las pruebas escritas para facilitar la cumplimentación del instrumento.
 
-### 7.2. Adaptaciones de acceso  
+### Adaptaciones de acceso  
 Se garantizará la accesibilidad física al aula y a los equipos informáticos, de modo que todo el alumnado pueda participar en las actividades previstas. En caso de necesidad, se permitirá el uso de dispositivos personales o de software adaptado. Además, se fomentará el empleo de documentación digital para facilitar la lectura y evitar posibles barreras de comprensión.  
 
-### 7.3. Estrategias de apoyo  
+### Estrategias de apoyo  
 El alumnado que presente dificultades contará con refuerzo en horario lectivo a través de tutorías individuales o en pequeños grupos. Paralelamente, se propondrán actividades de ampliación para quienes progresen más rápidamente, como la resolución de ejercicios avanzados o la investigación sobre tecnologías emergentes. Se promoverá el trabajo colaborativo, de manera que los estudiantes con mayor experiencia puedan ofrecer apoyo a sus compañeros, y se elaborarán actividades de recuperación específicas orientadas a los resultados de aprendizaje que no se hayan superado.  
 
-### 7.4. Seguimiento individualizado  
+### Seguimiento individualizado  
 El seguimiento del alumnado se llevará a cabo de forma continua, prestando especial atención a quienes muestren mayores dificultades. En coordinación con el **Departamento de Orientación**, se aplicarán adaptaciones metodológicas individualizadas cuando así se requiera. Además, se mantendrá una comunicación periódica con las familias o tutores legales en el caso de estudiantes con necesidades educativas especiales, con el fin de garantizar una intervención integral y coherente.
 
-### 7.5. Principios pedagógicos  
+### Principios pedagógicos  
 Las medidas de atención a la diversidad estarán siempre en consonancia con los principios pedagógicos que guían la práctica docente: la normalización e inclusión educativa, la prevención de dificultades y el refuerzo temprano, la flexibilidad metodológica, la igualdad de oportunidades y la no discriminación. Estos principios constituyen la base para garantizar que todo el alumnado, independientemente de sus características personales o de aprendizaje, pueda alcanzar las competencias profesionales previstas en el currículo del módulo.  
   
-## 8. Materiales y recursos didácticos
+## Materiales y recursos didácticos
 
-### 8.1. Recursos materiales y tecnológicos
+### Recursos materiales y tecnológicos
 Para el desarrollo del módulo de **Administración de Sistemas Operativos (ASO)** se utilizarán los siguientes recursos:
 
 - **Aulas y equipos:**
@@ -488,7 +488,7 @@ Para el desarrollo del módulo de **Administración de Sistemas Operativos (ASO)
   - Repositorios Git (GitHub, GitLab) para entrega y seguimiento de prácticas.
   - Documentación técnica en inglés y recursos de fabricantes (Microsoft, Red Hat, Canonical, etc.).
 
-### 8.2. Bibliografía y documentación de apoyo
+### Bibliografía y documentación de apoyo
 - **Libros de referencia:**
   - Gómez López, Julio; Raya Cabrera, José Luis; *Administración de Sistemas Operativos*. Ed. Ra-Ma.  
   - Raya Cabrera, José Luis; Raya González, Laura; *Implantación de Sistemas Operativos*. Ed. Ra-Ma.  
@@ -505,13 +505,13 @@ Para el desarrollo del módulo de **Administración de Sistemas Operativos (ASO)
   - Artículos técnicos y tutoriales sobre integración de sistemas heterogéneos.  
   - Normativa y guías de buenas prácticas en seguridad y administración de redes.  
 
-### 8.3. Otros recursos de apoyo
+### Otros recursos de apoyo
 - Acceso a bibliotecas digitales y bases de datos técnicas.  
 - Charlas y conferencias de antiguos alumnos y profesionales del sector.  
 - Talleres prácticos organizados en colaboración con empresas TIC.  
 - Uso de software libre como apoyo al aprendizaje autónomo del alumnado.  
 
-## 9. Actividades complementarias y extraescolares
+## Actividades complementarias y extraescolares
 
 Las actividades complementarias y extraescolares constituyen una parte fundamental de la programación didáctica, ya que permiten ampliar y enriquecer los aprendizajes desarrollados en el aula, acercando al alumnado a entornos profesionales reales y fomentando su motivación e interés por el sector.  
 
@@ -523,7 +523,7 @@ También se promoverán talleres prácticos impartidos por profesionales externo
 
 Todas estas actividades, complementarias al currículo, contribuirán al desarrollo integral del alumnado, reforzarán su motivación y favorecerán la adquisición de competencias profesionales, personales y sociales en un entorno más amplio que el aula ordinaria.
 
-## 10. Planes y programas vinculados al centro
+## Planes y programas vinculados al centro
 
 La programación del módulo de **Administración de Sistemas Operativos (ASO)** no se concibe de forma aislada, sino que se integra plenamente en el **Proyecto Educativo de Centro (PEC)**. Esto garantiza la coherencia entre los objetivos pedagógicos del ciclo formativo y las líneas estratégicas del centro, en ámbitos como la igualdad de género, la convivencia escolar, la digitalización y la sostenibilidad medioambiental.  
 
@@ -539,7 +539,7 @@ Además, el módulo se coordinará con otros programas activos en el centro, com
 
 La integración de estos planes y programas en el desarrollo del módulo ASO contribuye a formar profesionales técnicamente competentes, pero también conscientes de su responsabilidad social, capaces de trabajar en equipo, respetar la diversidad y afrontar los retos del mundo laboral de manera crítica y responsable.
 
-## 11. Evaluación de la programación didáctica
+## Evaluación de la programación didáctica
 
 La programación didáctica del módulo de **Administración de Sistemas Operativos (ASO)** será objeto de una evaluación continua con el fin de garantizar su adecuación al contexto del aula, la coherencia con los objetivos del ciclo formativo y la eficacia en el desarrollo de competencias profesionales, personales y sociales.  
 
@@ -554,7 +554,7 @@ Por último, al término de cada curso escolar, se elaborará un informe de eval
 En definitiva, la evaluación de la programación didáctica se concibe como un proceso cíclico de mejora continua, orientado no solo a comprobar el grado de cumplimiento de los objetivos planteados, sino también a enriquecer la experiencia formativa del alumnado y a garantizar que la enseñanza responda a las demandas del sector profesional y de la sociedad.  
 
 
-### 11.1. Tabla de cotejo de la programación didáctica
+### Tabla de cotejo de la programación didáctica
 
 > Nota: en **Observaciones** se indica la subsección donde se evidencia o lo que falta por añadir.  
 > Los marcados con (*) no son de obligado cumplimiento normativo.
