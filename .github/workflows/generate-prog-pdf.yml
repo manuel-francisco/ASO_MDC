@@ -38,23 +38,23 @@ jobs:
           -o programacion_ASO.pdf
       
 
-      # - name: Convert SINTESIS.md to PDF
-      #   run: |
-      #     pandoc SINTESIS.md \
-      #     --template=template_sintesis.tex \
-      #     --pdf-engine=xelatex \
-      #     -V mainfont="Liberation Sans" \
-      #     -V fallbackfont="Noto Sans" \
-      #     -V TITLE="Administración de Sistemas Operativos" \
-      #     -V CODIGO="0363" \
-      #     -V CICLO="Ciclo Formativo de Grado Superior de Administración de Sistemas Informáticos en Red" \
-      #     -V CURSO="2025-2026" \
-      #     -V REVISION="17/10/2025" \
-      #     -V IES="IES Mar de Cádiz" \
-      #     -V DPTO="Dpto. Informática y Comunicaciones" \
-      #     -V CIUDAD="El Puerto de Santa María" \
-      #     -V PROVINCIA="Cádiz" \
-      #     -o programacion_ASO.pdf
+      - name: Convert SINTESIS.md to PDF
+        run: |
+          pandoc SINTESIS.md \
+          --template=template_sintesis.tex \
+          --pdf-engine=xelatex \
+          -V mainfont="Liberation Sans" \
+          -V fallbackfont="Noto Sans" \
+          -V TITLE="Administración de Sistemas Operativos" \
+          -V CODIGO="0363" \
+          -V CICLO="Ciclo Formativo de Grado Superior de Administración de Sistemas Informáticos en Red" \
+          -V CURSO="2025-2026" \
+          -V REVISION="17/10/2025" \
+          -V IES="IES Mar de Cádiz" \
+          -V DPTO="Dpto. Informática y Comunicaciones" \
+          -V CIUDAD="El Puerto de Santa María" \
+          -V PROVINCIA="Cádiz" \
+          -o programacion_ASO.pdf
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
