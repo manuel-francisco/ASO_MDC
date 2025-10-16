@@ -43,6 +43,7 @@ jobs:
           pandoc SINTESIS.md \
           --template=template_sintesis.tex \
           --pdf-engine=xelatex \
+          --number-sections=false \
           -V mainfont="Liberation Sans" \
           -V fallbackfont="Noto Sans" \
           -V TITLE="Administración de Sistemas Operativos" \
@@ -54,10 +55,12 @@ jobs:
           -V DPTO="Dpto. Informática y Comunicaciones" \
           -V CIUDAD="El Puerto de Santa María" \
           -V PROVINCIA="Cádiz" \
-          -o programacion_ASO.pdf
+          -o sintesis_ASO.pdf
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
-          name: programacion_ASO
-          path: programacion_ASO.pdf
+          name: aso_pdfs
+          path: |
+            programacion_ASO.pdf
+            sintesis_ASO.pdf
