@@ -134,7 +134,7 @@ Se completa el **Bloque 4**.
 ## Resumen de la temporalización por bloques y unidades  
 
 | Bloque | Unidad Didáctica | RA | Horas aprox. | Evaluación |
-|--------|------------------|--------------------------------|--------------|------------|
+|--------|------------------|----|--------------|------------|
 | 0 | U1: Instalación avanzada de Windows y Windows Server | RA2 | 5 h | 1º Trimestre |
 | 0 | U2: Instalación avanzada de Linux | RA2 | 10 h | 1º Trimestre |
 | 0 | U3: Introducción al scripting en sistemas operativos | RA7 | 15 h | 1º Trimestre |
@@ -173,7 +173,7 @@ Se completa el **Bloque 4**.
 ### Número de horas por RA  
 
 | RA | UD Asociadas | Horas | % sobre 175h |
-|-------------------------------|-------------------------------|-------|--------------|
+|----|--------------|-------|--------------|
 | RA1 – Servicio de directorio | U10 (Active Directory) | 20 h | 11,4 % |
 | RA2 – Procesos e instalación de sistemas | U1 (5h), U2 (10h), U5 (10h), U8 (10h) | 35 h | 20 % |
 | RA3 – Automatización de tareas | U6 (10h), U9 (10h) | 20 h | 11,4 % |
@@ -279,7 +279,7 @@ Se completa el **Bloque 4**.
 ## Relación de RA con unidades didácticas  
 
 | UD | Título | RA |
-|------------------|--------|-------------------------------|
+|----|--------|----|
 | U1 | Instalación avanzada de Windows y Windows Server | RA2 |
 | U2 | Instalación avanzada de Linux | RA2 |
 | U3 | Introducción al scripting en sistemas operativos | RA7 |
