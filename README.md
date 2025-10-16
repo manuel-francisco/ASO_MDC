@@ -105,12 +105,10 @@ Se completan los **Bloques 0 y 1**.
   - U1: Instalación avanzada de Windows y Windows Server (RA2) → 5 h  
   - U2: Instalación avanzada de Linux (RA2) → 10 h  
   - U3: Introducción al scripting en sistemas operativos (RA7) → 15 h  
-
 - **Bloque 1: Administración de Linux**  
   - U4: Administración básica de sistemas Linux (RA2) → 10 h  
   - U5: Automatización de tareas en Linux (RA3) → 10 h  
   - U6: Administración remota de sistemas Linux (RA4) → 10 h  
-
 ### Segundo trimestre (12 semanas → 60 h)  
 Se completan los **Bloques 2 y 3**.  
 - **Bloque 2: Administración de Windows**  
@@ -118,17 +116,14 @@ Se completan los **Bloques 2 y 3**.
   - U8: Automatización de tareas en Windows (RA3) → 10 h  
   - U9: Administración de Active Directory (RA1) → 20 h  
   - U10: Administración remota en entornos Windows (RA4) → 10 h  
-
 - **Bloque 3: Integración de Sistemas Operativos**  
   - U11: Protocolos de comunicación y recursos compartidos (RA6) → 10 h  
   - U12: Implementación de servicios LDAP (RA6) → 20 h  
   - U13: Integración mediante Windows Subsystem for Linux (WSL) (RA6) → 10 h  
-
 ### Tercer trimestre (9 semanas → 45 h)  
 Se completa el **Bloque 4**.  
 - **Bloque 4: Red e impresión**  
   - U14: Administración de red y servidores de impresión (RA5) → 25 h  
-
 **Total: 175 horas.**  
 
 ## Resumen de la temporalización por bloques y unidades  
