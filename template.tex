@@ -26,6 +26,17 @@
 % FONT
 % ==============================
 \setmainfont{Liberation Sans}
+\newfontfamily\fallbackfont{Noto Sans}
+\newfontfamily\symbolfont{Noto Sans Symbols2}
+\usepackage[Latin,LatinExtendedAdditional,Symbols]{ucharclasses}
+
+% Transitions for different character classes
+\setTransitionsFor{Symbols}{\symbolfont}{\normalfont}
+\setTransitionsFor{LatinExtendedAdditional}{\fallbackfont}{\normalfont}
+
+% Specifically for accented characters, and any other problematic ones:
+\newfontfamily\accentsfont{Noto Sans}[Contextuals={WordInitial,WordFinal}]
+
 
 % ==============================
 % HEADER & FOOTER

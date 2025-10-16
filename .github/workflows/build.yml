@@ -16,7 +16,7 @@ jobs:
       - name: Install Pandoc and LaTeX
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra texlive-lang-spanish fonts-liberation
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra texlive-lang-spanish fonts-liberation fonts-noto
           sudo fc-cache -fv
 
       - name: Convert README.md to PDF
@@ -28,7 +28,6 @@ jobs:
           -V TITLE="Administración de Sistemas Operativos" \
           -V CODIGO="0363" \
           -V CICLO="Ciclo Formativo de Grado Superior de Administración de Sistemas Informáticos en Red" \
-          --variable tables-use-row-col-widths=false \
           -o programacion_ASO.pdf
 
       - name: Upload PDF artifact
