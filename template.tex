@@ -31,28 +31,30 @@
 \usepackage{etoolbox}
 \preto\longtable{\needspace{10\baselineskip}}
 
-% --- Pandoc table width safety fix ---
-\providecommand{\real}[1]{#1} % neutralize \real if undefined
-
-
 % ==============================
 % STYLES
 % ==============================
 % Load color support for tables
 \usepackage[table]{xcolor}
-\usepackage{etoolbox}
+\usepackage{colortbl}       % for \rowcolor
 
-% Define your colors
+% Define colors
 \definecolor{headergray}{gray}{0.85}
 \definecolor{rowgray}{gray}{0.95}
 
-% Apply alternating row and header colors
+% Longtable coloring: alternate row colors and header background color
 \AtBeginEnvironment{longtable}{
   \rowcolors{2}{white}{rowgray}
+  \setlength{\arrayrulewidth}{0.4pt} % optional border thickness
 }
+
+% Disable alternating color during header rows to keep header clear
 \apptocmd{\toprule}{\hiderowcolors}{}{}
 \apptocmd{\endhead}{\showrowcolors}{}{}
 \apptocmd{\endfirsthead}{\showrowcolors}{}{}
+
+% Add background color to header row
+\patchcmd{\longtable}{\toprule}{\rowcolor{headergray}\toprule}{}{}
 
 % ==============================
 % FONT
