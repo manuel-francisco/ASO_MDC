@@ -560,7 +560,7 @@ En definitiva, la evaluación de la programación didáctica se concibe como un 
 > Los marcados con (*) no son de obligado cumplimiento normativo.
 
 | Indicador (lista de cotejo) | Sí | No | Observaciones |
-|---|:--:|:--:|---|
+|-----------------------------|:--:|:--:|---------------|
 | Composición del departamento didáctico indicada * |  | x | Falta añadir relación nominal de docentes. No se realizará por GDPR/LOPD. |
 | Asignación de materias/ámbitos a los componentes del departamento * |  | x | Falta tabla de asignación docente.  No se realizará por GDPR/LOPD. |
 | Referencias legislativas principales incluidas * | x |  | [Marco legislativo](#marco-legislativo) |
