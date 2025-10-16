@@ -1,5 +1,14 @@
 \documentclass[12pt,a4paper]{article}
-\usepackage[margin=2.5cm,footskip=2.5cm]{geometry}
+\usepackage[
+  a4paper,
+  left=2.5cm,
+  right=2.5cm,
+  top=3.5cm,     % extra space for tall header
+  bottom=3cm,    % room for footer
+  headheight=55pt,
+  headsep=35pt,
+  footskip=25mm  % ensure footer is visible
+]{geometry}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
@@ -48,7 +57,7 @@
 % Adjust header spacing
 \setlength{\headheight}{55pt}  % increase if logos are taller
 \setlength{\headsep}{35pt}     % space between header and body
-\addtolength{\topmargin}{10pt} % fine-tune vertical offset if needed
+%\addtolength{\topmargin}{10pt} % fine-tune vertical offset if needed
 \fancyhf{} % clear all
 %\lhead{\includegraphics[width=\textwidth]{image.png}}
 \lhead{%
