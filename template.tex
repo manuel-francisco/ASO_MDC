@@ -34,6 +34,26 @@
 % --- Pandoc table width safety fix ---
 \providecommand{\real}[1]{#1} % neutralize \real if undefined
 
+
+% ==============================
+% STYLES
+% ==============================
+% Load color support for tables
+\usepackage[table]{xcolor}
+\usepackage{etoolbox}
+
+% Define your colors
+\definecolor{headergray}{gray}{0.85}
+\definecolor{rowgray}{gray}{0.95}
+
+% Apply alternating row and header colors
+\AtBeginEnvironment{longtable}{
+  \rowcolors{2}{white}{rowgray}
+}
+\apptocmd{\toprule}{\hiderowcolors}{}{}
+\apptocmd{\endhead}{\showrowcolors}{}{}
+\apptocmd{\endfirsthead}{\showrowcolors}{}{}
+
 % ==============================
 % FONT
 % ==============================
