@@ -43,7 +43,6 @@ jobs:
           pandoc SINTESIS.md \
           --template=template_sintesis.tex \
           --pdf-engine=xelatex \
-          --number-sections=false \
           -V mainfont="Liberation Sans" \
           -V fallbackfont="Noto Sans" \
           -V TITLE="Administración de Sistemas Operativos" \
