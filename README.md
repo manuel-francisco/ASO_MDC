@@ -101,29 +101,37 @@ La organización se estructura en **5 bloques temáticos** con 15 unidades didá
 
 ### Primer trimestre (14 semanas → 70 h)  
 Se completan los **Bloques 0 y 1**.  
+
 - **Bloque 0: Preparación**  
   - U1: Instalación avanzada de Windows y Windows Server (RA2) → 5 h  
   - U2: Instalación avanzada de Linux (RA2) → 10 h  
   - U3: Introducción al scripting en sistemas operativos (RA7) → 15 h  
+
 - **Bloque 1: Administración de Linux**  
   - U4: Administración básica de sistemas Linux (RA2) → 10 h  
   - U5: Automatización de tareas en Linux (RA3) → 10 h  
   - U6: Administración remota de sistemas Linux (RA4) → 10 h  
-### Segundo trimestre (12 semanas → 60 h)  
-Se completan los **Bloques 2 y 3**.  
+
+### Segundo trimestre (12 semanas → 60 h)
+Se completan los **Bloques 2 y 3**.
+
 - **Bloque 2: Administración de Windows**  
   - U7: Administración básica de sistemas Windows (RA2) → 10 h  
   - U8: Automatización de tareas en Windows (RA3) → 10 h  
   - U9: Administración de Active Directory (RA1) → 20 h  
   - U10: Administración remota en entornos Windows (RA4) → 10 h  
+
 - **Bloque 3: Integración de Sistemas Operativos**  
   - U11: Protocolos de comunicación y recursos compartidos (RA6) → 10 h  
   - U12: Implementación de servicios LDAP (RA6) → 20 h  
   - U13: Integración mediante Windows Subsystem for Linux (WSL) (RA6) → 10 h  
+
 ### Tercer trimestre (9 semanas → 45 h)  
 Se completa el **Bloque 4**.  
+
 - **Bloque 4: Red e impresión**  
   - U14: Administración de red y servidores de impresión (RA5) → 25 h  
+
 **Total: 175 horas.**  
 
 ## Resumen de la temporalización por bloques y unidades  
@@ -310,6 +318,7 @@ En el marco del módulo de ASO, estas líneas se concretan en la promoción de u
 
 
 ## Estrategias y técnicas de enseñanza-aprendizaje  
+
 - **Clases prácticas en aula-taller**: instalación, configuración y administración de sistemas operativos en entornos virtualizados.  
 - **Aprendizaje basado en problemas (ABP)**: resolución de incidencias de administración de sistemas planteadas como retos reales.  
 - **Aprendizaje cooperativo**: prácticas en parejas o pequeños grupos que simulan roles de administrador y usuario final.  
@@ -353,6 +362,7 @@ A lo largo del módulo se incorporan de forma transversal los siguientes conteni
 ## Evaluación inicial  
 Durante las primeras sesiones del curso se realizará una **evaluación inicial** para detectar los conocimientos previos y el nivel de competencia del alumnado.  
 Se utilizarán los siguientes instrumentos:  
+
 - Cuestionario inicial de conocimientos sobre sistemas operativos.  
 - Debate grupal sobre experiencias previas con Linux y Windows.  
 
@@ -361,6 +371,7 @@ Los resultados servirán para ajustar la metodología, proponer actividades de r
 ## Procedimientos de evaluación  
 La evaluación será **continua y formativa**, teniendo en cuenta tanto el proceso de aprendizaje como los resultados alcanzados.  
 Los procedimientos principales son:  
+
 - **Observación directa** del trabajo en el aula-taller y de la participación activa en las actividades, así como en trabajos de grupo y actitud. 
 - **Prácticas y proyectos** entregados en cada bloque, valorando funcionalidad, seguridad y documentación.  
 - **Pruebas escritas**, que podrán ser de tres tipos:  
@@ -372,6 +383,7 @@ Los procedimientos principales son:
 - **Autoevaluación y coevaluación** en actividades colaborativas.
 
 Las actividades realizadas en el aula tendrán carácter **no recuperable**.  
+
 - Las faltas de asistencia, tanto justificadas como injustificadas, **no darán derecho a prórroga o recuperación**.  
 - Las actividades que se desarrollen en varias sesiones y tengan un plazo de entrega establecido deberán presentarse en la fecha prevista.  
 - Los plazos no serán prorrogables, salvo acuerdo expreso con el docente en casos excepcionales.  
@@ -410,6 +422,7 @@ Las actividades realizadas en el aula tendrán carácter **no recuperable**.
      - Todos los RA ≥ 5 → **módulo superado** con nota final 5,7.  
 
 ## Instrumentos de evaluación  
+
 - **Cuaderno de prácticas** (individual y grupal).  
 - **Rúbricas de evaluación** para scripts, configuraciones y documentación técnica.  
 - **Exámenes escritos** (tipo test, preguntas cortas, problemas de desarrollo).  
@@ -419,6 +432,7 @@ Las actividades realizadas en el aula tendrán carácter **no recuperable**.
 - **Observación directa** de la actitud, trabajo en equipo y cumplimiento de plazos.  
 
 ## Recuperación y mejora de resultados  
+
 - La **evaluación continua** se aplicará durante todo el curso.  
 - Los alumnos que no superen todos los RA deberán presentarse en la **evaluación ordinaria** a una:  
   - **Prueba teórica escrita** (con test, preguntas cortas y desarrollo).  
