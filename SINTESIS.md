@@ -5,10 +5,6 @@
 
 ---
 
-Perfecto ✅ Aquí tienes los **RA1–RA7** del módulo **Administración de Sistemas Operativos** formateados en tablas Markdown, con los porcentajes distribuidos por criterio.
-
----
-
 ### RA1. Administra el servicio de directorio interpretando especificaciones e integrándolo en una red
 
 **Contribución del RA1:** 11,4 %
@@ -138,6 +134,7 @@ La calificación final del módulo se obtiene mediante la **media ponderada de l
 - Si algún RA tiene una calificación inferior a 5,0, la **nota final del módulo** será la **mínima de entre los RA no superados**.  
 
 Además:
+
 - Las **actividades no entregadas o no presentadas** se calificarán con **0** y afectarán a los criterios asociados.  
 - Las **actividades de aula** serán **no recuperables**.  
 - Las **faltas de asistencia**, justificadas o no, **no dan derecho a prórroga** ni ampliación de plazos, salvo acuerdo expreso con el docente.  
@@ -150,6 +147,7 @@ Además:
 La evaluación será **continua, formativa e integradora**, valorando tanto el proceso de aprendizaje como los resultados alcanzados.  
 
 Los principales procedimientos son:  
+
 1. **Observación directa** del trabajo en el aula y de la actitud profesional del alumnado.  
 2. **Revisión de prácticas y proyectos**, valorando la funcionalidad, seguridad, documentación y limpieza técnica.  
 3. **Pruebas escritas**, de tres tipos:
