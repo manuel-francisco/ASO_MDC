@@ -16,5 +16,5 @@ elif [[ $nota -eq 6 ]]; then  # Si la nota es igual a 6, entonces imprimimos Bie
 elif [[ $nota -eq 7 ]] || [[ $nota -eq 8 ]]; then  # Si la nota es igual a 7 o (usando el comparador OR (||) ) 8, imprimimos Notable
 	echo "Notable"
 else
-	echo "Sobresaliente"  # Si no es ninguna de estas, es decir que tendrian que ser 8 o 9, entonces imprimimos Sobresaliente
+	echo "Sobresaliente"  # Si no es ninguna de estas, es decir que tendrian que ser 9 o 10, entonces imprimimos Sobresaliente
 fi
