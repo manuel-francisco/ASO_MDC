@@ -130,20 +130,10 @@
 % ==============================
 \begin{document}
 
-% Alternating colors starting from second row
-\AtBeginEnvironment{longtable}{
-  \rowcolors{2}{white}{rowgray}
-  \setlength{\arrayrulewidth}{0.4pt}
-}
-
-% Control row colors around headers
-\apptocmd{\toprule}{\hiderowcolors}{}{}
-\apptocmd{\endhead}{\showrowcolors}{}{}
-\apptocmd{\endfirsthead}{\showrowcolors}{}{}
-
-% Patch header content to add rowcolor
-\patchcmd{\endfirsthead}{\\}{\\\rowcolor{header}}{}{}
-\patchcmd{\endhead}{\\}{\\\rowcolor{header}}{}{}
+\makeatletter
+\pretocmd{\longtable}{\rowcolors{2}{white}{rowgray}}{}{}
+\patchcmd{\LT@array}{\crcr}{\crcr\rowcolor{header}}{}{}
+\makeatother
 
 \makecover
 \maketoc
