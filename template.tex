@@ -31,7 +31,16 @@
 \usepackage{etoolbox}
 \preto\longtable{\needspace{8\baselineskip}}
 
+% ==============================
+% STYLES
+% ==============================
+% Load color support for tables
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+\usepackage{etoolbox}
 
+\definecolor{header}{rgb}{0.5, 1, 0.5}
+\definecolor{rowgray}{gray}{0.95}
 
 
 % ==============================
@@ -120,16 +129,6 @@
 % DOCUMENT BODY
 % ==============================
 \begin{document}
-% ==============================
-% STYLES
-% ==============================
-% Load color support for tables
-\usepackage[table]{xcolor}
-\usepackage{colortbl}
-\usepackage{etoolbox}
-
-\definecolor{header}{rgb}{0.5, 1, 0.5}
-\definecolor{rowgray}{gray}{0.95}
 
 % Alternating colors starting from second row
 \AtBeginEnvironment{longtable}{
