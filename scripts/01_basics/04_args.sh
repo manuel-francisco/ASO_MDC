@@ -4,7 +4,7 @@
 if [[ $# -ne 2 ]]; then
 	echo "Error: solo se admiten dos argumentos de línea."
 # comprueba si los argumentos son números
-elif ! [[ $1 =~ ^[0-9]+$ && $2 =~ ^[0-9]+$ ]]; then
+elif ! [[ $1 =~ ^-?[0-9]+$ && $2 =~ ^-?[0-9]+$ ]]; then
 	echo "Error: solo se admiten valores numéricos."
 else
 # muestra en pantalla el nombre del script, los valores de los argumentos y su suma
