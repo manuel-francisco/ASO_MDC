@@ -20,7 +20,7 @@ if [[ $age =~ ^[0-9]+$ ]]; then
 		echo "Buenas tardes $name, le quedan $year año(s) para llegar a su centenario."
 	fi
 else
-	echo "Escriba un número en el campo edad."
+	echo "Escriba un número natural en el campo edad."
 fi
 
 
