@@ -43,15 +43,6 @@
 \definecolor{headergray}{rgb}{.5,1,.5}
 \definecolor{rowgray}{gray}{0.95}
 
-% Longtable coloring: alternate row colors and header background color
-\AtBeginEnvironment{longtable}{
-  \rowcolors{2}{white}{rowgray}
-  \setlength{\arrayrulewidth}{0.4pt}
-  \rowcolor{headergray}\toprule % Apply header color explicitly
-}
-\apptocmd{\endhead}{\showrowcolors}{}{}
-\apptocmd{\endfirsthead}{\showrowcolors}{}{}
-
 % ==============================
 % FONT
 % ==============================
@@ -130,6 +121,12 @@
 % DOCUMENT BODY
 % ==============================
 \begin{document}
+
+\makeatletter
+\pretocmd{\longtable}{\rowcolors{2}{white}{rowgray}}{}{}
+\patchcmd{\LT@array}{\crcr}{\crcr\rowcolor{header}}{}{}
+\makeatother
+
 
 $body$
 
