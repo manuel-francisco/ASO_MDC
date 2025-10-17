@@ -29,33 +29,9 @@
 \usepackage[spanish, es-noshorthands]{babel}
 \usepackage{needspace}
 \usepackage{etoolbox}
-\preto\longtable{\needspace{10\baselineskip}}
+\preto\longtable{\needspace{8\baselineskip}}
 
-% ==============================
-% STYLES
-% ==============================
-% Load color support for tables
-\usepackage[table]{xcolor}
-\usepackage{colortbl}
-\usepackage{etoolbox}
 
-\definecolor{header}{rgb}{0.5, 1, 0.5}
-\definecolor{rowgray}{gray}{0.95}
-
-% Alternating colors starting from second row
-\AtBeginEnvironment{longtable}{
-  \rowcolors{2}{white}{rowgray}
-  \setlength{\arrayrulewidth}{0.4pt}
-}
-
-% Control row colors around headers
-\apptocmd{\toprule}{\hiderowcolors}{}{}
-\apptocmd{\endhead}{\showrowcolors}{}{}
-\apptocmd{\endfirsthead}{\showrowcolors}{}{}
-
-% Patch header content to add rowcolor
-\patchcmd{\endfirsthead}{\\}{\\\rowcolor{header}}{}{}
-\patchcmd{\endhead}{\\}{\\\rowcolor{header}}{}{}
 
 
 % ==============================
@@ -106,7 +82,6 @@
 % COVER PAGE
 % ==============================
 \newcommand{\makecover}{
-  \begin{titlepage}
     \thispagestyle{fancy}
     \begin{center}
       \vspace*{0.25\textheight}
@@ -124,7 +99,6 @@
       $CIUDAD$ -- $PROVINCIA$\\
       Curso $CURSO$
     \end{flushright}
-  \end{titlepage}
 }
 
 
@@ -146,6 +120,31 @@
 % DOCUMENT BODY
 % ==============================
 \begin{document}
+% ==============================
+% STYLES
+% ==============================
+% Load color support for tables
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+\usepackage{etoolbox}
+
+\definecolor{header}{rgb}{0.5, 1, 0.5}
+\definecolor{rowgray}{gray}{0.95}
+
+% Alternating colors starting from second row
+\AtBeginEnvironment{longtable}{
+  \rowcolors{2}{white}{rowgray}
+  \setlength{\arrayrulewidth}{0.4pt}
+}
+
+% Control row colors around headers
+\apptocmd{\toprule}{\hiderowcolors}{}{}
+\apptocmd{\endhead}{\showrowcolors}{}{}
+\apptocmd{\endfirsthead}{\showrowcolors}{}{}
+
+% Patch header content to add rowcolor
+\patchcmd{\endfirsthead}{\\}{\\\rowcolor{header}}{}{}
+\patchcmd{\endhead}{\\}{\\\rowcolor{header}}{}{}
 
 \makecover
 \maketoc
