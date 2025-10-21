@@ -4,7 +4,7 @@ function es_par {
 
 
 #estructura if
-if (( $1 % 2 == 0 )); then
+if [[ $(( $1 % 2 )) -eq 0 ]]; then
     return 0
 else
     return 1
