@@ -1,8 +1,7 @@
 #!/bin/bash
 # Script que muestra un menú básico y ejecuta una acción según la opción elegida usando case y se repite mediante un while
 
-option=1
-
+#Bucle que solo sera cortado cuando pulsemos el botón de salir (4)
 while [[ "$option" -ne 4 ]]; do
 
 # Mostrar el menú de opciones
