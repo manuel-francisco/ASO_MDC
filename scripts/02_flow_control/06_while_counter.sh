@@ -15,6 +15,8 @@ fi
 while [[ $contador -le $numero ]]; do
 	echo "$contador"
 	((contador++))
+	# esperar 1 segundo
+	sleep 1
 done
 
 # muestra el mensaje final
