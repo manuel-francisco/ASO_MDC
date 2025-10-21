@@ -7,10 +7,10 @@ read -p "Introduzca un numero: " numero
 contador=1
 
 # Inicializamos el bucle while
-while [[ $contador -le $numero ]] # Mientras que $contador sea menor o igual que $numero. 
+while [[ "$contador" -le "$numero" ]] # Mientras que $contador sea menor o igual que $numero. 
 do
                             
-            echo $contador # Imprimimos el numero
+            echo "$contador" # Imprimimos el numero
             sleep 1 # Le ponemos un tiempo de espera
             ((contador++)) # Le sumamos un numero al contador hasta que llegue al numero que haya especificado el usuario
 
