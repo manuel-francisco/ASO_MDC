@@ -27,7 +27,7 @@ jobs:
           -V mainfont="Liberation Sans" \
           -V fallbackfont="Noto Sans" \
           -V TITLE="Administración de Sistemas Operativos" \
-          -V CODIGO="0363" \
+          -V CODIGO="0374" \
           -V CICLO="Ciclo Formativo de Grado Superior de Administración de Sistemas Informáticos en Red" \
           -V CURSO="2025-2026" \
           -V REVISION="17/10/2025" \
@@ -46,7 +46,7 @@ jobs:
           -V mainfont="Liberation Sans" \
           -V fallbackfont="Noto Sans" \
           -V TITLE="Administración de Sistemas Operativos" \
-          -V CODIGO="0363" \
+          -V CODIGO="0374" \
           -V CICLO="Ciclo Formativo de Grado Superior de Administración de Sistemas Informáticos en Red" \
           -V CURSO="2025-2026" \
           -V REVISION="17/10/2025" \

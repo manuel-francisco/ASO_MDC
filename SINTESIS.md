@@ -1,6 +1,6 @@
 # I.E.S. MAR DE CÁDIZ  
 ### CFGS Administración de Sistemas Informáticos en Red (2º curso)  
-**Módulo profesional:** Administración de Sistemas Operativos (ASO – Código 0373)  
+**Módulo profesional:** Administración de Sistemas Operativos (ASO – Código 0374)  
 **Curso escolar:** 2025/2026  
 
 ---
