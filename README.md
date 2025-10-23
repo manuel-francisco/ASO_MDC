@@ -89,43 +89,6 @@ g) Integrar sistemas operativos libres y propietarios, justificando y garantizan
 h) Desarrollar y utilizar scripts para la administración del sistema operativo, aplicando lenguajes de guiones y librerías de funciones.  
 i) Documentar procedimientos, configuraciones y tareas de administración de sistemas operativos de manera clara y estructurada.  
 
-# Competencias profesionales, personales y sociales
-
-## Competencias del ciclo formativo  
-La competencia general del título de **Técnico Superior en Administración de Sistemas Informáticos en Red** consiste en configurar, administrar y mantener sistemas informáticos, garantizando la funcionalidad, la integridad de los recursos y servicios del sistema, con la calidad exigida y cumpliendo la normativa vigente.
-
-Las competencias profesionales, personales y sociales del ciclo son:  
-
-a) Administrar sistemas operativos de servidor, instalando y configurando el software en condiciones de calidad para asegurar el funcionamiento del sistema.  
-b) Administrar servicios de red (web, mensajería electrónica, transferencia de archivos, etc.) instalando y configurando el software en condiciones de calidad.  
-c) Administrar aplicaciones instalando y configurando el software en condiciones de calidad para responder a las necesidades de la organización.  
-d) Implantar y gestionar bases de datos administrando el software de gestión en condiciones de calidad.  
-e) Optimizar el rendimiento del sistema configurando y evaluando dispositivos hardware.  
-f) Determinar e implantar infraestructuras de redes telemáticas, asegurando su conectividad y rendimiento.  
-g) Implementar soluciones de seguridad y alta disponibilidad para prevenir fallos y garantizar la continuidad de los servicios.  
-h) Diagnosticar y corregir disfunciones del sistema mediante técnicas de monitorización y medidas correctivas.  
-i) Administrar usuarios y recursos del sistema, garantizando accesos seguros y disponibilidad.  
-j) Gestionar tareas de mantenimiento en función de cargas de trabajo y planes establecidos.  
-k) Mantener una actitud de innovación y actualización ante los cambios tecnológicos.  
-l) Resolver problemas y tomar decisiones de forma autónoma en el ámbito de su competencia.  
-m) Liderar y colaborar en situaciones colectivas, mediando en conflictos y fomentando un ambiente de trabajo positivo.  
-n) Fomentar el espíritu emprendedor, el autoempleo y la creación de pequeñas empresas.  
-o) Participar de manera activa, crítica y responsable en la sociedad y en la vida profesional.  
-p) Conocer y aplicar la normativa laboral, así como las medidas de prevención de riesgos y protección medioambiental.  
-
-## Competencias específicas del módulo
-El módulo de **Administración de Sistemas Operativos** contribuye de manera particular al desarrollo de las siguientes competencias del título:  
-
-a) Administrar sistemas operativos de servidor, instalando y configurando el software en condiciones de calidad.  
-b) Administrar usuarios y recursos del sistema, garantizando la seguridad y disponibilidad.  
-c) Diagnosticar disfunciones del sistema y adoptar medidas correctivas para restablecer su funcionalidad.  
-d) Automatizar tareas administrativas mediante planificadores y guiones de sistemas.  
-e) Administrar de forma remota sistemas operativos en red, aplicando criterios de seguridad.  
-f) Configurar y gestionar servidores de impresión y de archivos, integrándolos en la red.  
-g) Integrar sistemas operativos libres y propietarios en escenarios heterogéneos, justificando y garantizando la interoperabilidad.  
-h) Desarrollar y aplicar scripts de administración de servicios y tareas de sistemas operativos.  
-i) Documentar configuraciones, procedimientos y resultados de la administración de sistemas.  
-
 # Contenidos
 
 ## Distribución de contenidos y secuenciación temporal  
