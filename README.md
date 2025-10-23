@@ -62,8 +62,7 @@ o) Establecer la planificación de tareas, analizando actividades y cargas de tr
 q) Identificar formas de intervención en situaciones colectivas, analizando el proceso de toma de decisiones y efectuando consultas para liderar las mismas.
 r) Identificar y valorar las oportunidades de aprendizaje y su relación con el mundo laboral, analizando las ofertas y demandas del mercado para gestionar su carrera profesional.
 s) Reconocer las oportunidades de negocio, identificando y analizando demandas del mercado para crear y gestionar una pequeña empresa.
-t) Reconocer sus derechos y deberes como agente activo
-en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático.
+t) Reconocer sus derechos y deberes como agente activo en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático.
 
 La formación del módulo contribuye a alcanzar las competencias profesionales, personales y sociales de este título que se relacionan a continuación:
 
