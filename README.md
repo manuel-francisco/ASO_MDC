@@ -10,21 +10,23 @@ Este módulo se imparte en el **segundo curso** del CFGS ASIR, con una carga lec
 Junto con otros módulos como *Implantación de Sistemas Operativos*, *Fundamentos de Hardware* o *Seguridad y Alta Disponibilidad*, constituye el núcleo formativo orientado a la administración de sistemas informáticos, integrando conocimientos y competencias transversales en el ámbito profesional de la informática.  
 
 ## Marco legislativo  
-El desarrollo del presente módulo se apoya en la siguiente normativa:  
+La programación de este módulo se fundamenta en la normativa vigente que regula las enseñanzas de la Formación Profesional en el sistema educativo español, y en particular en el título de **Técnico Superior en Administración de Sistemas Informáticos en Red (ASIR)**:  
 
-- **Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE)**, modificada por la **Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE)**.
-- **Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional**.  
-- **Real Decreto 1147/2011, de 29 de julio**, por el que se establece la ordenación general de la Formación Profesional del sistema educativo.  
-- **Real Decreto 1629/2009, de 30 de octubre**, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus enseñanzas mínimas.  
-- **Decreto 436/2008, de 2 de septiembre**, por el que se establecen las enseñanzas de la Formación Profesional inicial en Andalucía.  
-- **Orden de 19 de julio de 2010**, por la que se desarrolla el currículo correspondiente al título de Técnico Superior en ASIR en Andalucía.  
-- Normativa autonómica vigente sobre evaluación, atención a la diversidad y planes educativos transversales.
+- **Ley Orgánica 2/2006**, de 3 de mayo, de Educación (LOE), modificada por la **Ley Orgánica 3/2020**, de 29 de diciembre (LOMLOE).  
+- **Ley Orgánica 5/2002**, de 19 de junio, de las Cualificaciones y de la Formación Profesional.  
+- **Real Decreto 1147/2011**, de 29 de julio, por el que se establece la ordenación general de la formación profesional del sistema educativo.  
+- **Real Decreto 1629/2009**, de 30 de octubre, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus enseñanzas mínimas.  
+- **Orden EDU/392/2010**, de 25 de febrero, por la que se establece el currículo del ciclo formativo de Grado Superior correspondiente al título de Técnico Superior en Administración de Sistemas Informáticos en Red.  
+- **Orden de 19 de julio de 2010**, por la que se desarrolla el currículo correspondiente al título de Técnico Superior en Administración de Sistemas Informáticos en Red en la Comunidad Autónoma de Andalucía.  
+- **Orden de 29 de septiembre de 2010**, sobre la evaluación en los ciclos formativos de formación profesional en la Comunidad Autónoma de Andalucía.  
+
+Este marco normativo define tanto la **estructura y organización del ciclo formativo**, como los **resultados de aprendizaje, criterios de evaluación y contenidos** que deben alcanzarse en el módulo de **Administración de Sistemas Operativos (ASO)**.  
 
 
 # Objetivos
 
 ## Objetivos generales del ciclo formativo  
-De acuerdo con el **Real Decreto 1629/2009, de 30 de octubre**, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red, los objetivos generales del ciclo son:  
+De acuerdo con la **Orden de 19 de julio de 2010**, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red, los objetivos generales del ciclo son:  
 
 a) Analizar la estructura del software de base, comparando las características y prestaciones de sistemas libres y propietarios, para administrar sistemas operativos de servidor.  
 b) Instalar y configurar el software de base, siguiendo documentación técnica y especificaciones dadas, para administrar sistemas operativos de servidor.  
@@ -39,9 +41,43 @@ j) Mantener una actitud de innovación y actualización permanente ante los camb
 k) Fomentar el espíritu emprendedor y la capacidad de autoempleo.  
 l) Participar de forma activa en la vida económica, social y cultural con actitud crítica y responsable.  
 m) Conocer y aplicar la legislación laboral y los derechos y deberes derivados de las relaciones laborales.  
-n) Trabajar en condiciones de seguridad y salud, identificando riesgos y aplicando medidas preventivas.  
+n) Trabajar en condiciones de seguridad y salud, identificando riesgos y aplicando medidas preventivas.
+ñ) Aplicar técnicas de monitorización interpretando los resultados y relacionándolos con las medidas correctoras para diagnosticar y corregir las disfunciones.
+o) Establecer la planificación de tareas, analizando actividades y cargas de trabajo del sistema para gestionar el mantenimiento.
+p) Identificar los cambios tecnológicos, organizativos, económicos y laborales en su actividad, analizando sus implicaciones en el ámbito de trabajo, para resolver problemas y mantener una cultura de actualización e innovación.
+q) Identificar formas de intervención en situaciones colectivas, analizando el proceso de toma de decisiones y efectuando consultas para liderar las mismas.
+r) Identificar y valorar las oportunidades de aprendizaje y su relación con el mundo laboral, analizando las ofertas y demandas del mercado para gestionar su carrera profesional.
+s) Reconocer las oportunidades de negocio, identificando y analizando demandas del mercado para crear y gestionar una pequeña empresa.
+t) Reconocer sus derechos y deberes como agente activo
+en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático.
 
-## Objetivos generales del módulo  
+## Objetivos generales del módulo
+La formación del módulo contribuye a alcanzar los objetivos generales de este ciclo formativo que se relacionan a continuación:
+
+a) Analizar la estructura del software de base, comparando las características y prestaciones de sistemas libres y propietarios, para administrar sistemas operativos de servidor.  
+b) Instalar y configurar el software de base, siguiendo documentación técnica y especificaciones dadas, para administrar sistemas operativos de servidor.  
+n) Trabajar en condiciones de seguridad y salud, identificando riesgos y aplicando medidas preventivas.
+ñ) Aplicar técnicas de monitorización interpretando los resultados y relacionándolos con las medidas correctoras para diagnosticar y corregir las disfunciones.
+o) Establecer la planificación de tareas, analizando actividades y cargas de trabajo del sistema para gestionar el mantenimiento.
+q) Identificar formas de intervención en situaciones colectivas, analizando el proceso de toma de decisiones y efectuando consultas para liderar las mismas.
+r) Identificar y valorar las oportunidades de aprendizaje y su relación con el mundo laboral, analizando las ofertas y demandas del mercado para gestionar su carrera profesional.
+s) Reconocer las oportunidades de negocio, identificando y analizando demandas del mercado para crear y gestionar una pequeña empresa.
+t) Reconocer sus derechos y deberes como agente activo
+en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático.
+
+La formación del módulo contribuye a alcanzar las competencias profesionales, personales y sociales de este título que se relacionan a continuación:
+
+a) Administrar sistemas operativos de servidor, instalando y configurando el software, en condiciones de calidad para asegurar el funcionamiento del sistema.
+l) Administrar usuarios de acuerdo a las especificaciones de explotación para garantizar los accesos y la disponibilidad de los recursos del sistema.
+m) Diagnosticar las disfunciones del sistema y adoptar las medidas correctivas para restablecer su funcionalidad.
+n) Gestionar y/o realizar el mantenimiento de los recursos de su área (programando y verificando su cumplimiento), en función de las cargas de trabajo y el plan de mantenimiento.
+ñ) Mantener la limpieza y el orden en el lugar de trabajo, cumpliendo las normas de competencia técnica y los requisitos de salud laboral.
+o) Efectuar consultas, dirigiéndose a la persona adecuada y saber respetar la autonomía de los subordinados, informando cuando sea conveniente.
+q) Liderar situaciones colectivas que se puedan producir, mediando en conflictos personales y laborales, contribuyendo al establecimiento de un ambiente de trabajo agradable y actuando en todo momento de forma sincera, respetuosa y tolerante.
+r) Adaptarse a diferentes puestos de trabajo y nuevas situaciones laborales, originadas por cambios tecnológicos y organizativos.
+s) Resolver problemas y tomar decisiones individuales, siguiendo las normas y procedimientos establecidos, definidos dentro del ámbito de su competencia.
+
+## Objetivos específicos del módulo  
 Los objetivos específicos del módulo de **Administración de Sistemas Operativos (ASO)** son:  
 
 a) Instalar y configurar sistemas operativos de servidor, siguiendo documentación técnica, para garantizar su funcionalidad.  
@@ -78,7 +114,7 @@ n) Fomentar el espíritu emprendedor, el autoempleo y la creación de pequeñas 
 o) Participar de manera activa, crítica y responsable en la sociedad y en la vida profesional.  
 p) Conocer y aplicar la normativa laboral, así como las medidas de prevención de riesgos y protección medioambiental.  
 
-## Competencias específicas del módulo ASO  
+## Competencias específicas del módulo
 El módulo de **Administración de Sistemas Operativos** contribuye de manera particular al desarrollo de las siguientes competencias del título:  
 
 a) Administrar sistemas operativos de servidor, instalando y configurando el software en condiciones de calidad.  
