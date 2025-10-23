@@ -95,7 +95,7 @@ i) Documentar procedimientos, configuraciones y tareas de administración de sis
 
 El módulo de **Administración de Sistemas Operativos (ASO)** tiene una duración de **175 horas**, con una carga de **5 horas semanales** durante **35 semanas lectivas**.  
 
-La organización se estructura en **5 bloques temáticos** con 15 unidades didácticas. La temporalización por trimestres es la siguiente:  
+La organización se estructura en **4 bloques temáticos** con 14 unidades didácticas. La temporalización por trimestres es la siguiente:  
 
 ### Primer trimestre (14 semanas → 70 h)  
 Se completan los **Bloques 0 y 1**.  
@@ -106,29 +106,31 @@ Se completan los **Bloques 0 y 1**.
   - U3: Introducción al scripting en sistemas operativos (RA7) → 15 h  
 
 - **Bloque 1: Administración de Linux**  
-  - U4: Administración básica de sistemas Linux (RA2) → 10 h  
-  - U5: Automatización de tareas en Linux (RA3) → 10 h  
+  - U4: Administración básica de sistemas Linux (RA2) → 15 h  
+  - U5: Automatización de tareas en Linux (RA3) → 15 h  
   - U6: Administración remota de sistemas Linux (RA4) → 10 h  
 
-### Segundo trimestre (12 semanas → 60 h)
-Se completan los **Bloques 2 y 3**.
+### Segundo trimestre (11 semanas → 55 h)
+Se completan los **Bloques 2 y parte del 3**.
 
 - **Bloque 2: Administración de Windows**  
-  - U7: Administración básica de sistemas Windows (RA2) → 10 h  
+  - U7: Administración básica de sistemas Windows (RA2) → 5 h  
   - U8: Automatización de tareas en Windows (RA3) → 10 h  
-  - U9: Administración de Active Directory (RA1) → 20 h  
-  - U10: Administración remota en entornos Windows (RA4) → 10 h  
+  - U9: Administración de Active Directory (RA1) → 15 h  
+  - U10: Administración remota en entornos Windows (RA4) → 5 h  
 
 - **Bloque 3: Integración de Sistemas Operativos**  
   - U11: Protocolos de comunicación y recursos compartidos (RA6) → 10 h  
-  - U12: Implementación de servicios LDAP (RA6) → 20 h  
-  - U13: Integración mediante Windows Subsystem for Linux (WSL) (RA6) → 10 h  
+  - U12: Implementación de servicios LDAP (RA6) → 10 h  
+   
 
-### Tercer trimestre (9 semanas → 45 h)  
-Se completa el **Bloque 4**.  
+### Tercer trimestre (10 semanas → 50 h)  
+Se completan los **Bloques 3 y 4**. El bloque 4 incluye formación DUAL, en la que se contempla la realización de parte de los objetivos
 
+- **Bloque 3: Integración de Sistemas Operativos (continuación)**
+  - U13: Integración mediante Windows Subsystem for Linux (WSL) (RA6) → 10 h 
 - **Bloque 4: Red e impresión**  
-  - U14: Administración de red y servidores de impresión (RA5) → 25 h  
+  - U14 DUAL: Administración de red y servidores de impresión (RA5) → 40 h
 
 **Total: 175 horas.**  
 
@@ -136,53 +138,53 @@ Se completa el **Bloque 4**.
 
 | Bloque | Unidad Didáctica     | RA | Horas | Evaluación |
 |--------|----------------------|----|-------|------------|
-| 0 | U1: Instalación avanzada de Windows y Windows Server | RA2 | 5 h | 1º Trimestre |
-| 0 | U2: Instalación avanzada de Linux | RA2 | 10 h | 1º Trimestre |
-| 0 | U3: Introducción al scripting en sistemas operativos | RA7 | 15 h | 1º Trimestre |
-| 1 | U4: Administración básica de sistemas Linux | RA2 | 10 h | 1º Trimestre |
-| 1 | U5: Automatización de tareas en Linux | RA3 | 10 h | 1º Trimestre |
-| 1 | U6: Administración remota de sistemas Linux | RA4 | 10 h | 1º Trimestre |
-| 2 | U7: Administración básica de sistemas Windows | RA2 | 10 h | 1º Trimestre |
-| 2 | U8: Automatización de tareas en Windows | RA3 | 10 h | 2º Trimestre |
-| 2 | U0: Administración de Active Directory | RA1 | 20 h | 2º Trimestre |
-| 2 | U10: Administración remota en entornos Windows | RA4 | 10 h | 2º Trimestre |
-| 3 | U11: Protocolos de comunicación y recursos compartidos | RA6 | 10 h | 2º Trimestre |
-| 3 | U12: Implementación de servicios LDAP | RA6 | 20 h | 1º y 2º Trimestre |
-| 3 | U13: Integración mediante Windows Subsystem for Linux (WSL) | RA6 | 10 h | 3º Trimestre |
-| 4 | U14: Administración de red y servidores de impresión | RA5 | 25 h | 3º Trimestre |
+|0       |  U1: Instalación avanzada de Windows y Windows Server         |  RA2  |  5 h    |  1º Trimestre |
+|0       |  U2: Instalación avanzada de Linux                            |  RA2  |  10 h   |  1º Trimestre |
+|0       |  U3: Introducción al scripting en sistemas operativos         |  RA7  |  15 h   |  1º Trimestre |
+|1       |  U4: Administración básica de sistemas Linux                  |  RA2  |  15 h   |  1º Trimestre |
+|1       |  U5: Automatización de tareas en Linux                        |  RA3  |  15 h   |  1º Trimestre |
+|1       |  U6: Administración remota de sistemas Linux                  |  RA4  |  10 h   |  1º Trimestre |
+|2       |  U7: Administración básica de sistemas Windows                |  RA2  |  5 h    |  2º Trimestre |
+|2       |  U8: Automatización de tareas en Windows                      |  RA3  |  10 h   |  2º Trimestre |
+|2       |  U9: Administración de Active Directory                       |  RA1  |  15 h   |  2º Trimestre |
+|2       |  U10: Administración remota en entornos Windows               |  RA4  |  5 h    |  2º Trimestre |
+|3       |  U11: Protocolos de comunicación y recursos compartidos       |  RA6  |  10 h   |  2º Trimestre |
+|3       |  U12: Implementación de servicios LDAP                        |  RA6  |  10 h   |  2º Trimestre |
+|3       |  U13: Integración mediante Windows Subsystem for Linux (WSL)  |  RA6  |  10 h   |  3º Trimestre |
+|4       |  U14 DUAL: Administración de red y servidores de impresión    |  RA5  |  40 h   |  3º Trimestre |
 
 ### Número de horas por bloque  
 
 | Bloque | Título | Horas |
 |--------|--------|-------|
-| 0 | Preparación | 30 h |
-| 1 | Administración de Linux | 30 h |
-| 2 | Administración de Windows | 50 h |
-| 3 | Integración de Sistemas Operativos | 40 h |
-| 4 | Red e impresión | 25 h |
-| **Total** | — | **175 h** |
+| 0       |  Preparación                         |  30 h |
+| 1       |  Administración de Linux             |  30 h |
+| 2       |  Administración de Windows           |  50 h |
+| 3       |  Integración de Sistemas Operativos  |  40 h |
+| 4       |  Red e impresión                     |  45 h |
+| Total   |  —                                   |  175 h|
 
 ### Número de horas por trimestre  
 
 | Trimestre | Bloques incluidos | Horas |
 |-----------|------------------|-------|
-| 1º | Bloques 0 y 1 | 60 h |
-| 2º | Bloques 2 y 3 | 90 h |
-| 3º | Bloque 4 | 25 h |
-| **Total** | — | **175 h** |
+|1º         |  Bloques 0 y 1            |  70 h |
+|2º         |  Bloques 2 y parte del 3  |  55 h |
+|3º         |  Bloques 3 y 4            |  50 h |
+|Total      |  —                        |  175 h|
 
 ### Número de horas por RA  
 
 | Resultados Aprendizaje | UD Asociadas | Horas | % sobre 175h |
 |------------------------|--------------|-------|--------------|
-| RA1 – Servicio de directorio | U10 (Active Directory) | 20 h | 11,4 % |
-| RA2 – Procesos e instalación de sistemas | U1 (5h), U2 (10h), U5 (10h), U8 (10h) | 35 h | 20 % |
-| RA3 – Automatización de tareas | U6 (10h), U9 (10h) | 20 h | 11,4 % |
-| RA4 – Administración remota | U7 (10h), U11 (10h) | 20 h | 11,4 % |
-| RA5 – Red e impresión | U15 (25h) | 25 h | 14,3 % |
-| RA6 – Integración de sistemas | U12 (10h), U13 (20h), U14 (10h) | 40 h | 22,9 % |
-| RA7 – Scripting | U4 (10h) | 15 h | 8,57 % |
-| **Total** | — | **175 h** | **100 %** |
+|RA1 – Servicio de directorio              |  U9 (Active Directory)                 |  15 h   |  8,6%         |
+|RA2 – Procesos e instalación de sistemas  |  U1 (5h), U2 (10h), U4 (15h), U7 (5h)  |  35 h   |  20%          |
+|RA3 – Automatización de tareas            |  U5 (15h), U8 (10h)                    |  25 h   |  14,3%        |
+|RA4 – Administración remota               |  U6 (10h), U10 (5h)                    |  15 h   |  8,6%         |
+|RA5 – Red e impresión                     |  U14 (Dual)                            |  40 h   |  22,9%        |
+|RA6 – Integración de sistemas             |  U11 (10h), U12 (10h), U13 (10h)       |  30 h   |  17,1%        |
+|RA7 – Scripting                           |  U3                                    |  15 h   |  8,6%         |
+|Total                                     |  —                                     |  175 h  |  100%         |
 
 ## Resultados de Aprendizaje y Criterios de Evaluación
 
