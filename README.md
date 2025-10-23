@@ -404,20 +404,20 @@ Las actividades realizadas en el aula tendrán carácter **no recuperable**.
 
 3. **Ejemplos de cálculo**  
    - Ejemplo 1:
-     - RA1 (2h) = 4,9  
-     - RA2 (40h) = 6,0  
-     - RA6 (40h) = 10,0  
+     - RA1 (2h, que equivale al 2,5%) = 4,9  
+     - RA2 (38h, que equivale al 47,5%) = 6,0  
+     - RA6 (40h, que equivale al 50%) = 10,0  
      - Nota media ponderada = 4,9  
-     - **Resultado**: el módulo está **suspenso** con nota final = 4,9 (mínimo de RA no superado).  
+     - **Resultado**: el módulo está **suspenso** con nota final = 4,9 (mínimo de RA no superado).
 
    - Ejemplo 2:  
-     - RA1 (20h) = 7,0  
-     - RA2 (40h) = 5,0  
-     - RA3 (20h) = 6,0  
-     - RA4 (20h) = 5,5  
-     - RA5 (25h) = 6,0  
-     - RA6 (40h) = 5,5  
-     - RA7 (10h) = 7,0  
+     - RA1 (20 h, que equivale al 11,4 %) = 7,0  
+     - RA2 (40 h, que equivale al 22,9 %) = 5,0  
+     - RA3 (20 h, que equivale al 11,4 %) = 6,0  
+     - RA4 (20 h, que equivale al 11,4 %) = 5,5  
+     - RA5 (25 h, que equivale al 14,3 %) = 6,0  
+     - RA6 (40 h, que equivale al 22,9 %) = 5,5  
+     - RA7 (10 h, que equivale al 5,7 %) = 7,0  
      - Nota media ponderada = 5,7  
      - Todos los RA ≥ 5 → **módulo superado** con nota final 5,7.  
 
