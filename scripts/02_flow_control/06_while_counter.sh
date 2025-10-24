@@ -1,6 +1,6 @@
 #!/bin/bash
 # Solicita al usuario que introduzca un número y lo guarda en la variable N
-read -p "Introduce un número (que no sea ni negativo ni muy alto porfavor) > " N
+read -p "Introduce un número (mayor que 0 pero tampoco muy alto porfavor) > " N
 
 # Inicializa la variable fakeN en 1 para usarla como contador
 fakeN=1
