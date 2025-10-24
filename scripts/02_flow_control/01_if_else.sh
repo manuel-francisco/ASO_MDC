@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 # pregunta por un ńumero
 read -p "Introduzca un número: " numero
 # si es mayor de 10
