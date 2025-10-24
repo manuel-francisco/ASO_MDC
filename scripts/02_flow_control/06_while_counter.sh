@@ -18,4 +18,4 @@ while [[ fakeN -ne N && N -gt "0" ]]; do
 done
 
 # Cuando finaliza el bucle, indica que se ha terminado y muestra cuántos números se imprimieron
-echo "Contador finalizad. Se han mostrado $N números"
+echo "Contador finalizado. Se han mostrado $N números"
