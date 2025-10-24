@@ -5,7 +5,7 @@ read -p "Dime tu edad " edad  #Te pide la edad del usuario
 
 if [[ -z "$edad" ]]; then  #Es para comprobar que la edad es correcta
 
-echo " Error tienes que incluir una edad" #Señal de error 
+echo " Error tienes que incluir una edad." #Señal de error 
 
 elif [[ "$edad" =~ ^[0-9]+$ ]]; then #Para comprobar si es un número
 res=$((100 - $edad)) #Resta de la edad
