@@ -22,8 +22,8 @@ jobs:
       
       - name: Dar permisos de ejecución
         run: |
-          chmod +x scripts/01_basics/05_args_check.sh
-          chmod +x scripts/01_basics/test-scripts/test05.sh
+          chmod +x ./scripts/01_basics/05_args_check.sh
+          chmod +x ./scripts/01_basics/test-scripts/test05.sh
       
       - name: Ejecutar tests
         run: bash test05.sh
