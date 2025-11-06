@@ -2,9 +2,10 @@ name: Test Script Validation
 
 on:
   push:
+    paths:
+      - 'scripts/01_basics/test-scripts/*.sh'
     branches: 
       - main
-      - master
       - feature/github-actions
   pull_request:
     branches: 
@@ -21,7 +22,7 @@ jobs:
         uses: actions/checkout@v5
       
       - name: Ejecutar tests
-        run: bash test_05_args_check.sh
+        run: bash ../test_05_args_check.sh
       
       - name: Verificar resultados
         run: |
