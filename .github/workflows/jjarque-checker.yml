@@ -2,17 +2,16 @@ name: Test Script Validation
 
 on:
   push:
-    paths:
-      - 'scripts/01_basics/test-scripts/*.sh'
     branches: 
       - main
+      - roadmap/bash-jjarque
       - feature/github-actions
   pull_request:
     branches: 
-      - main
-      - master
-  workflow_dispatch:
-
+     - main
+     - roadmap/bash-jjarque
+     - feature/github-actions
+      
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -21,8 +20,14 @@ jobs:
       - name: Checkout código
         uses: actions/checkout@v5
       
+      - name: Dar permisos de ejecución
+        run: |
+          chmod +x scripts/01_basics/05_args_check.sh
+          chmod +x scripts/01_basics/test-scripts/test05.sh
+      
       - name: Ejecutar tests
-        run: bash ../test_05_args_check.sh
+        run: bash test05.sh
+        working-directory: ./scripts/01_basics/test-scripts
       
       - name: Verificar resultados
         run: |
