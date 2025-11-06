@@ -1,0 +1,33 @@
+name: Test Script Validation
+
+on:
+  push:
+    branches: 
+      - main
+      - master
+      - feature/github-actions
+  pull_request:
+    branches: 
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v5
+      
+      - name: Ejecutar tests
+        run: bash test_05_args_check.sh
+      
+      - name: Verificar resultados
+        run: |
+          if [ $? -eq 0 ]; then
+            echo "Tests completados"
+          else
+            echo "Tests fallidos"
+            exit 1
+          fi
