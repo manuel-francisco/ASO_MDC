@@ -28,22 +28,22 @@ case $gol in
 1)
 echo -e "Fecha actual: $(mostrar_fecha)\n"
 sleep 1
-break
+menu
 ;;
 2)
 echo -e "Usuario actual: $(mostrar_usuario)\n"
 sleep 1
-break
+menu
 ;;
 3)
 echo -e "Espacio actual: $(mostrar_espacio)\n"
 sleep 1
-break
+menu
 ;;
 *)
 echo -e "¿Que pones?\n"
 sleep 1
-break
+menu
 ;;
 esac
 done
