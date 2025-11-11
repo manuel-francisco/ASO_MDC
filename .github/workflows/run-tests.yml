@@ -1,0 +1,28 @@
+name: bash-tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ejecutar todos los test_*.sh
+        run: |
+          find scripts/tests -type f -name 'test_*.sh' | while read -r test_script; do
+            echo "Ejecutando $test_script..."
+            bash "$test_script" &> "${test_script%.sh}.log"
+            if [ $? -ne 0 ]; then
+              echo "$test_script FAILED. Log:"
+              cat "${test_script%.sh}.log"
+            else
+              echo "$test_script OK"
+            fi
+          done
