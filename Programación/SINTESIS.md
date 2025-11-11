@@ -12,16 +12,16 @@
 
 | Letra | Criterio de evaluación                                                                     |   %  |
 | :---: | ------------------------------------------------------------------------------------------ | :--: |
-| a) | Identifica la función, los elementos y las estructuras lógicas del servicio de directorio. | 1,43 |
-| b) | Determina y crea el esquema del servicio de directorio. | 1,43 |
-| c) | Instala el servicio de directorio en el servidor. | 1,43 |
-| d) | Configura y personaliza el servicio de directorio. | 1,43 |
-| e) | Integra el servicio de directorio con otros servicios. | 1,43 |
-| f) | Aplica filtros de búsqueda en el servicio de directorio. | 1,43 |
-| g) | Utiliza el servicio de directorio como mecanismo de autenticación centralizada. | 1,43 |
-| h) | Configura el cliente para su integración en el servicio de directorio. | 1,43 |
-| i) | Utiliza herramientas gráficas y comandos para la administración del directorio. | 1,43 |
-| j) | Documenta la estructura e implantación del servicio de directorio. | 1,43 |
+| a) | Identifica la función, los elementos y las estructuras lógicas del servicio de directorio. | 10 |
+| b) | Determina y crea el esquema del servicio de directorio. | 10 |
+| c) | Instala el servicio de directorio en el servidor. | 10 |
+| d) | Configura y personaliza el servicio de directorio. | 10 |
+| e) | Integra el servicio de directorio con otros servicios. | 10 |
+| f) | Aplica filtros de búsqueda en el servicio de directorio. | 10 |
+| g) | Utiliza el servicio de directorio como mecanismo de autenticación centralizada. | 10 |
+| h) | Configura el cliente para su integración en el servicio de directorio. | 10 |
+| i) | Utiliza herramientas gráficas y comandos para la administración del directorio. | 10 |
+| j) | Documenta la estructura e implantación del servicio de directorio. | 10 |
 
 ---
 
@@ -31,14 +31,14 @@
 
 | Letra | Criterio de evaluación                                                               |   %  |
 | :---: | ------------------------------------------------------------------------------------ | :--: |
-| a) | Describe el concepto de proceso, tipos, estados y ciclo de vida. | 1,79 |
-| b) | Utiliza interrupciones y excepciones para describir eventos internos del procesador. | 1,79 |
-| c) | Diferencia entre proceso, hilo y trabajo. | 1,79 |
-| d) | Realiza tareas de creación, manipulación y terminación de procesos. | 1,79 |
-| e) | Utiliza herramientas gráficas y comandos para el control de procesos. | 1,79 |
-| f) | Comprueba la secuencia de arranque del sistema y los procesos implicados. | 1,79 |
-| g) | Aplica medidas de seguridad ante procesos no identificados. | 1,79 |
-| h) | Documenta los procesos habituales del sistema y su relación. | 1,79 |
+| a) | Describe el concepto de proceso, tipos, estados y ciclo de vida. | 12,5 |
+| b) | Utiliza interrupciones y excepciones para describir eventos internos del procesador. | 12,5 |
+| c) | Diferencia entre proceso, hilo y trabajo. | 12,5 |
+| d) | Realiza tareas de creación, manipulación y terminación de procesos. | 12,5 |
+| e) | Utiliza herramientas gráficas y comandos para el control de procesos. | 12,5 |
+| f) | Comprueba la secuencia de arranque del sistema y los procesos implicados. | 12,5 |
+| g) | Aplica medidas de seguridad ante procesos no identificados. | 12,5 |
+| h) | Documenta los procesos habituales del sistema y su relación. | 12,5 |
 
 ---
 
@@ -48,12 +48,12 @@
 
 | Letra | Criterio de evaluación                                                     |   %  |
 | :---: | -------------------------------------------------------------------------- | :--: |
-| a) | Describe las ventajas de la automatización de tareas repetitivas. | 2,38 |
-| b) | Utiliza comandos del sistema para la planificación de tareas. | 2,38 |
-| c) | Instala y configura herramientas gráficas para la planificación de tareas. | 2,38 |
-| d) | Establece restricciones de seguridad. | 2,38 |
-| e) | Automatiza la administración de cuentas. | 2,38 |
-| f) | Documenta los procesos programados como tareas automáticas. | 2,38 |
+| a) | Describe las ventajas de la automatización de tareas repetitivas. | 16,67 |
+| b) | Utiliza comandos del sistema para la planificación de tareas. | 16,67 |
+| c) | Instala y configura herramientas gráficas para la planificación de tareas. | 16,67 |
+| d) | Establece restricciones de seguridad. | 16,67 |
+| e) | Automatiza la administración de cuentas. | 16,67 |
+| f) | Documenta los procesos programados como tareas automáticas. | 16,67 |
 
 ---
 
@@ -63,14 +63,14 @@
 
 | Letra | Criterio de evaluación                                                         |   %  |
 | :---: | ------------------------------------------------------------------------------ | :--: |
-| a) | Describe métodos de acceso y administración remota. | 1,79 |
-| b) | Utiliza herramientas de administración remota del sistema operativo. | 1,79 |
-| c) | Instala servicios de acceso y administración remota. | 1,79 |
-| d) | Gestiona servicios de acceso remoto mediante comandos y herramientas gráficas. | 1,79 |
-| e) | Crea cuentas de usuario para acceso remoto. | 1,79 |
-| f) | Realiza pruebas de acceso remoto entre sistemas heterogéneos. | 1,79 |
-| g) | Utiliza mecanismos de cifrado en las conexiones. | 1,79 |
-| h) | Documenta los procesos y servicios administrados remotamente. | 1,79 |
+| a) | Describe métodos de acceso y administración remota. | 12,5 |
+| b) | Utiliza herramientas de administración remota del sistema operativo. | 12,5 |
+| c) | Instala servicios de acceso y administración remota. | 12,5 |
+| d) | Gestiona servicios de acceso remoto mediante comandos y herramientas gráficas. | 12,5 |
+| e) | Crea cuentas de usuario para acceso remoto. | 12,5 |
+| f) | Realiza pruebas de acceso remoto entre sistemas heterogéneos. | 12,5 |
+| g) | Utiliza mecanismos de cifrado en las conexiones. | 12,5 |
+| h) | Documenta los procesos y servicios administrados remotamente. | 12,5 |
 
 ---
 
@@ -80,13 +80,13 @@
 
 | Letra | Criterio de evaluación                                                 |   %  |
 | :---: | ---------------------------------------------------------------------- | :--: |
-| a) | Describe la funcionalidad de los sistemas y servidores de impresión. | 2,04 |
-| b) | Identifica puertos y protocolos utilizados. | 2,04 |
-| c) | Instala y configura un servidor de impresión. | 2,04 |
-| d) | Crea impresoras lógicas y grupos de impresión. | 2,04 |
-| e) | Gestiona colas de impresión y trabajos. | 2,04 |
-| f) | Comparte impresoras en red entre sistemas distintos. | 2,04 |
-| g) | Documenta la configuración del servidor de impresión y las impresoras. | 2,04 |
+| a) | Describe la funcionalidad de los sistemas y servidores de impresión. | 14,29 |
+| b) | Identifica puertos y protocolos utilizados. | 14,29 |
+| c) | Instala y configura un servidor de impresión. | 14,29 |
+| d) | Crea impresoras lógicas y grupos de impresión. | 14,29 |
+| e) | Gestiona colas de impresión y trabajos. | 14,29 |
+| f) | Comparte impresoras en red entre sistemas distintos. | 14,29 |
+| g) | Documenta la configuración del servidor de impresión y las impresoras. | 14,29 |
 
 ---
 
@@ -96,14 +96,14 @@
 
 | Letra | Criterio de evaluación                                                      |   %  |
 | :---: | --------------------------------------------------------------------------- | :--: |
-| a) | Identifica la necesidad de compartir recursos entre sistemas distintos. | 1,79 |
-| b) | Establece niveles de seguridad en los accesos. | 1,79 |
-| c) | Comprueba la conectividad en escenarios heterogéneos. | 1,79 |
-| d) | Describe la funcionalidad de los servicios que permiten compartir recursos. | 1,79 |
-| e) | Instala y configura servicios de compartición de recursos. | 1,79 |
-| f) | Comprueba el funcionamiento de los servicios instalados. | 1,79 |
-| g) | Accede en grupo a sistemas de archivos e impresoras en red. | 1,79 |
-| h) | Documenta la configuración de los servicios instalados. | 1,79 |
+| a) | Identifica la necesidad de compartir recursos entre sistemas distintos. | 12,5 |
+| b) | Establece niveles de seguridad en los accesos. | 12,5 |
+| c) | Comprueba la conectividad en escenarios heterogéneos. | 12,5 |
+| d) | Describe la funcionalidad de los servicios que permiten compartir recursos. | 12,5 |
+| e) | Instala y configura servicios de compartición de recursos. | 12,5 |
+| f) | Comprueba el funcionamiento de los servicios instalados. | 12,5 |
+| g) | Accede en grupo a sistemas de archivos e impresoras en red. | 12,5 |
+| h) | Documenta la configuración de los servicios instalados. | 12,5 |
 
 ---
 
@@ -113,15 +113,15 @@
 
 | Letra | Criterio de evaluación                                            |   %  |
 | :---: | ----------------------------------------------------------------- | :--: |
-| a) | Utiliza estructuras del lenguaje para crear guiones. | 1,59 |
-| b) | Usa herramientas para depurar errores sintácticos y de ejecución. | 1,59 |
-| c) | Interpreta guiones de configuración del sistema operativo. | 1,59 |
-| d) | Adapta guiones del sistema. | 1,59 |
-| e) | Crea y prueba guiones de administración de servicios. | 1,59 |
-| f) | Crea y prueba guiones de automatización de tareas. | 1,59 |
-| g) | Implanta guiones en sistemas libres y propietarios. | 1,59 |
-| h) | Utiliza librerías de funciones. | 1,59 |
-| i) | Documenta los guiones creados. | 1,59 |
+| a) | Utiliza estructuras del lenguaje para crear guiones. | 11,11 |
+| b) | Usa herramientas para depurar errores sintácticos y de ejecución. | 11,11 |
+| c) | Interpreta guiones de configuración del sistema operativo. | 11,11 |
+| d) | Adapta guiones del sistema. | 11,11 |
+| e) | Crea y prueba guiones de administración de servicios. | 11,11 |
+| f) | Crea y prueba guiones de automatización de tareas. | 11,11 |
+| g) | Implanta guiones en sistemas libres y propietarios. | 11,11 |
+| h) | Utiliza librerías de funciones. | 11,11 |
+| i) | Documenta los guiones creados. | 11,11 |
 
 
 ---
