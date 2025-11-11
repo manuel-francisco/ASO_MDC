@@ -19,6 +19,9 @@ jobs:
       - name: Revisar Repositorio Hugo
         uses: actions/checkout@v5
 
+      - name: Permisos archivos
+        run: chmod -x *.sh
+  
       - name: Ejecutar script TEST
         run: |
           test04=$(find . -type f -name "*test*.sh")
@@ -27,8 +30,6 @@ jobs:
           echo "No se encontró ningún script que sea TEST."
           exit 1
           fi
-
-          chmod 700 *.sh
 
           echo -e "🔍 EJECUTANDO $test04\n"
 
