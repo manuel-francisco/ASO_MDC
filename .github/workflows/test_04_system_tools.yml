@@ -20,7 +20,9 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Permisos archivos
-        run: chmod -x *.sh
+        run: |
+          cd scripts/03_functions/
+          chmod u+x script.sh
   
       - name: Ejecutar script TEST
         run: |
