@@ -16,7 +16,7 @@ jobs:
    
     runs-on: ubuntu-latest
     steps:
-      - name: Revisar Repositorio
+      - name: Revisar Repositorio Hugo
         uses: actions/checkout@v5
 
       - name: Ejecutar script TEST
