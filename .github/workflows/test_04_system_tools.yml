@@ -22,7 +22,7 @@ jobs:
       - name: Permisos archivos
         run: |
           cd scripts/03_functions/
-          chmod u+x script.sh
+          chmod u+x *.sh
   
       - name: Ejecutar script TEST
         run: |
