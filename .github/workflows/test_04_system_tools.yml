@@ -26,6 +26,7 @@ jobs:
   
       - name: Ejecutar script TEST
         run: |
+          cd scripts/03_functions/
           test04=$(find . -type f -name "*test*.sh")
 
           if [[ -z "$test04" ]]; then
