@@ -44,7 +44,7 @@ test "${modulo2}" "${salida2}" "[USER]"
 sleep 1
 test "${modulo3}" "${salida3}" "[DISCO]"
 sleep 1
-test "${modulo4}" "${salida4}" "[ERROR]"
+test "${modulo4}" "${salida4}" "[FAIL]"
 sleep 1
 test "${modulo5}" "${salida5}" "[SALIR]"
 echo " "
