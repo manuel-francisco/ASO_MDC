@@ -1,0 +1,145 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[
+  a4paper,
+  left=2.5cm,
+  right=2.5cm,
+  top=3.5cm,     % extra space for tall header
+  bottom=3cm,    % room for footer
+  headheight=55pt,
+  headsep=35pt,
+  footskip=25mm  % ensure footer is visible
+]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{fontspec}
+\usepackage[hidelinks]{hyperref} 
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{setspace}
+\usepackage{tocloft}
+\usepackage{etoolbox}
+\usepackage{xcolor}
+\usepackage{longtable}
+\usepackage{calc}       % allows arithmetic in width specs
+\usepackage{ragged2e}   % improves text alignment in table cells
+\usepackage{xfp}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage[spanish, es-noshorthands]{babel}
+\usepackage{needspace}
+\usepackage{etoolbox}
+\preto\longtable{\needspace{8\baselineskip}}
+
+% ==============================
+% STYLES
+% ==============================
+% Load color support for tables
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+\usepackage{etoolbox}
+
+\definecolor{header}{rgb}{0.5, 1, 0.5}
+\definecolor{rowgray}{gray}{0.95}
+
+
+% ==============================
+% FONT
+% ==============================
+\setmainfont{Liberation Sans}
+\newfontfamily\fallbackfont{Noto Sans}
+\newfontfamily\symbolfont{Noto Sans Symbols2}
+\usepackage[Latin,LatinExtendedAdditional,Symbols]{ucharclasses}
+
+% Transitions for different character classes
+\setTransitionsFor{Symbols}{\symbolfont}{\normalfont}
+\setTransitionsFor{LatinExtendedAdditional}{\fallbackfont}{\normalfont}
+
+% Specifically for accented characters, and any other problematic ones:
+\newfontfamily\accentsfont{Noto Sans}[Contextuals={WordInitial,WordFinal}]
+
+
+% ==============================
+% HEADER & FOOTER
+% ==============================
+\pagestyle{fancy}
+% Adjust header spacing
+\setlength{\headheight}{55pt}  % increase if logos are taller
+\setlength{\headsep}{35pt}     % space between header and body
+%\addtolength{\topmargin}{10pt} % fine-tune vertical offset if needed
+\fancyhf{} % clear all
+%\lhead{\includegraphics[width=\textwidth]{image.png}}
+\lhead{%
+  \setlength{\tabcolsep}{2pt}
+  \renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{m{3cm}m{9cm}m{3cm}}
+    \centering\includegraphics[width=2.4cm]{logo_ies.png} &
+    \centering
+    \textbf{$IES$}\\
+    \textit{Enseñanza - Aprendizaje}\\
+    \textbf{Programación}\\[2pt]
+    Rev. $REVISION$ &
+    \centering\includegraphics[width=2.8cm]{logo_junta.png} \\
+  \end{tabular}
+}
+\lfoot{Módulo $CODIGO$ - Curso $CURSO$}
+\rfoot{Página \thepage\ de \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% ==============================
+% COVER PAGE
+% ==============================
+\newcommand{\makecover}{
+    \thispagestyle{fancy}
+    \begin{center}
+      \vspace*{0.25\textheight}
+      {\Huge\bfseries PROGRAMACIÓN DIDÁCTICA DEL MÓDULO\par}
+      \vspace{2cm}
+      {\LARGE Código $CODIGO$ - $TITLE$\par}
+      \vspace{2cm}
+      {\Large $CICLO$\par}
+    \end{center}
+
+    \vfill
+    \begin{flushright}
+      \textbf{$DPTO$}\\
+      $IES$\\
+      $CIUDAD$ -- $PROVINCIA$\\
+      Curso $CURSO$
+    \end{flushright}
+}
+
+
+% ==============================
+% TABLE OF CONTENTS
+% ==============================
+\setcounter{tocdepth}{3}
+\newcommand{\maketoc}{
+  \thispagestyle{fancy}
+  \tableofcontents
+  \clearpage
+}
+
+% Pandoc list compatibility
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% ==============================
+% DOCUMENT BODY
+% ==============================
+\pagestyle{fancy}
+\fancypagestyle{plain}{\pagestyle{fancy}}
+\begin{document}
+
+\makeatletter
+\pretocmd{\longtable}{\rowcolors{2}{white}{rowgray}}{}{}
+\patchcmd{\LT@array}{\crcr}{\crcr\rowcolor{header}}{}{}
+\makeatother
+
+\makecover
+\maketoc
+
+$body$
+
+\end{document}
