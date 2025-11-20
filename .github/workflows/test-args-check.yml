@@ -1,0 +1,48 @@
+# Nombre que aparecerá en la pestaña "Actions" de GitHub
+name: Run 05_args_check tester
+
+# Cuándo se ejecutará el workflow
+on:
+  push:                           # Cuando se haga push
+    paths:                        # Solo si cambian estos archivos
+      - 'scripts/01_basics/05_args_check.sh'
+      - 'scripts/01_basics/test_05_args_check.sh'
+  pull_request:                   # También si se abre un pull request
+    paths:
+      - 'scripts/01_basics/05_args_check.sh'
+      - 'scripts/01_basics/test_05_args_check.sh'
+
+jobs:
+  test-args-check:                # Nombre interno del trabajo (job)
+    name: Execute test_05_args_check.sh
+    runs-on: ubuntu-latest        # Usa una máquina Linux para ejecutar el test
+
+    steps:
+      # Descarga el repositorio en el entorno de GitHub Actions
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Da permisos de ejecución a los scripts (sin esto no podrían ejecutarse)
+      - name: Give execute permissions
+        run: |
+          chmod +x scripts/01_basics/05_args_check.sh
+          chmod +x scripts/01_basics/test_05_args_check.sh
+
+      # Ejecuta el script tester dentro de la carpeta correspondiente
+      - name: Run tester script
+        working-directory: scripts/01_basics
+        run: |
+          echo "=== Ejecutando test_05_args_check.sh ==="
+          bash test_05_args_check.sh
+
+      # Comprueba si en la salida hay algún "FAIL" y marca el workflow como fallido si ocurre
+      - name: Check for FAIL results
+        if: always()              # Se ejecuta aunque el paso anterior falle
+        working-directory: scripts/01_basics
+        run: |
+          if grep -q "FAIL" <(bash test_05_args_check.sh); then
+            echo "El test ha fallado"
+            exit 1                # Marca el workflow como fallido
+          else
+            echo "Todos los tests han pasado correctamente"
+          fi
