@@ -1,4 +1,4 @@
-SALIDA=$(echo -e "Juan\n" | ./03_io.sh)
+SALIDA=(echo -e "Juan\n" | ./03_io.sh)
 
 if [[ $SALIDA == *"Debes introducir un valor"* ]]; then
     echo -e "[VALOREDAD]\tTEST OK"
