@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 #Mostrar el nombre actual
 echo "Mi nombre es $USER"
 #Mostrar el directorio actual
