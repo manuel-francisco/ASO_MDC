@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 #Les voy a pedir que me diga las variables nombre y edad
@@ -20,3 +21,4 @@ fi
 edad_tope=$(( 100 - "$edad" )) #Esta resta es para saber cuantos años le queda para cumplir 100
 
 	echo "Hola $nombre, te quedan $edad_tope años para cumplir 100"
+
