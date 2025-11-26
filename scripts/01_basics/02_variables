@@ -1,0 +1,9 @@
+#!/bin/bash
+
+NOMBRE="$(USER)"
+CURSO="2 ASIR"
+FECHA="$(DATE)"
+
+echo"Soy $NOMBRE"
+echo"Hoy es $FECHA"
+echo"Estoy trabajando en el directorio $(pwd)"
