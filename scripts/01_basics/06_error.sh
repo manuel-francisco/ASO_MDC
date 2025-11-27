@@ -6,5 +6,5 @@ if [ $fallo == 5 ]; then
 echo "$fallo"
 fi
 
-echo "El número es : $Nuevo_fallo"
+echo "El número es: $Nuevo_fallo"
 
