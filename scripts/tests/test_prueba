@@ -1,0 +1,27 @@
+#!/bin/bash
+SALIDA=$(../05_args_check 5 2 7)
+
+if [[ $? -eq 1 ]] && [[ $SALIDA == "Debes pasar 2 argumentos" ]]
+    echo "OK"
+else
+    echo "ERROR"
+    exit 1
+fi
+
+SALIDA2=$(../05_args_check 5 a)
+
+if [[ $? -eq 2 ]] && [[ $SALIDA2 == "Debes introducir números" ]]
+    echo "OK"
+else
+    echo "ERROR"
+    exit 2
+fi
+
+SALIDA3=$(../05_args_check 5 4)
+
+if [[ $? -eq 0 ]] && [[ $SALIDA3 == "La suma es: $suma" ]]
+    echo "OK"
+else
+    echo "ERROR"
+    exit 0
+fi
