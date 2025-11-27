@@ -12,6 +12,6 @@ if [[ $num -gt 10 ]] then
 exit 0
 #Los dos números son iguales
 else
-	echo "Los números son iguales"
+	echo "Los números son iguales "
 fi
 
