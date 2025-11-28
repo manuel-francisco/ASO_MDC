@@ -1,0 +1,10 @@
+[Unit]
+Description=Ejecucion del script de usuarios de las 7 de la mañana
+
+[Timer]
+OnCalendar=Mon..Fri 07:00
+Persistent=true
+Unit=script.service
+
+[Install]
+WantedBy=timers.target

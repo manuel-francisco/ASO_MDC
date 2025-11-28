@@ -1,0 +1,8 @@
+[Unit]
+Description=Script para añadir o borrar usuario
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/script.sh
+User=root
+Group=root
