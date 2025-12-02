@@ -1,0 +1,6 @@
+[Unit]
+Description=Ejecucion del backup
+
+[Service]
+Type=oneshot
+ExecStart=/root/ASO_MDC/scripts/05_automation
