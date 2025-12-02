@@ -1,4 +1,5 @@
 #!/bin/bash
+
 #Hace la lista de todos los archivos en el directorio actual
 for FILE in *; do
 
