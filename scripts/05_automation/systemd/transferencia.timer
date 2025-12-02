@@ -1,0 +1,11 @@
+[Unit]
+Description= Timer todos los dias entre semana, una hora antes de backup
+
+[Timer]
+OnCalendar=Mon..Fri 06:00
+OnCalendar=Mon..Fri 13:30
+Persistent=true
+Unit=transferencia.service
+
+[Install]
+WantedBy=timers.target

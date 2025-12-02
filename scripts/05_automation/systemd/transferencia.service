@@ -1,0 +1,9 @@
+[Unit]
+Description=Script que envía el archivo usuarios.csv para backup.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/transfiere_usuarios.sh
+User=usuario1
+Group=usuario1
+
