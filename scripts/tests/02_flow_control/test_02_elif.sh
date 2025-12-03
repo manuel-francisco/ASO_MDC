@@ -22,3 +22,15 @@ test_case "Bien" \
     "echo -e \"6\" | $SCRIPT" \
     "Tu calificación es: Bien" \
     0
+
+test_case "Notable" \
+    "echo -e \"7\" | $SCRIPT" \
+    "Tu calificación es: Notable" \
+    0
+
+test_case "Nota Sobresaliente" \
+    "echo -e \"9\" | $SCRIPT" \
+    "Tu calificación es: Sobresaliente" \
+    0
+
+summary || exit 1
