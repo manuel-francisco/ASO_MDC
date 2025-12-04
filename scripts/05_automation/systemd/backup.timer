@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer para gestion_usuarios (laborables 07:00 y 14:30)
+
+[Timer]
+OnCalendar=Mon..Fri 07:00
+OnCalendar=Mon..Fri 14:30
+Persistent=true
+
+[Install]
+WantedBy=timers.target

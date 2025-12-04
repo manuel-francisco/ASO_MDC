@@ -1,0 +1,7 @@
+[Unit]
+Description=Gestion de usuarios desde CSV
+
+[Service]
+Type=oneshot
+ExecStart=../backup.sh
+
