@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer para transeferir usuarios a compañero
+
+[Timer]
+OnCalendar=Mon..Fri 06:00:00
+OnCalendar=Mon..Fri 13:30:00
+Persistant=true
+
+[Install]
+WantedBy=timers.target

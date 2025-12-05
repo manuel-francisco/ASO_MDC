@@ -1,0 +1,8 @@
+[Unit]
+Description=systemd para ejercicio 5
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/asdf
+User=root
+Group=root

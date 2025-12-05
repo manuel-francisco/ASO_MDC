@@ -1,0 +1,8 @@
+[Unit]
+Description=Transferencia de usuarios programada
+
+[Service]
+Type=oneshot
+ExecStart=/github/ASO_MDC/scripts/05_automation/transfiere_usuarios.sh
+User=root
+Group=root

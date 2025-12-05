@@ -1,0 +1,8 @@
+[Unit]
+Description=Gestión de usuario mediante fichero CSV
+
+[Service]
+Type=oneshot
+ExecStart=/root/github/ASO-MDC/scripts/05-automation/gestion_usuarios.sh
+User=root
+Group=root
