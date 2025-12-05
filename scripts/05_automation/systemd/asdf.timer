@@ -1,0 +1,18 @@
+[Unit]
+Description= Timer ejercicio 5
+
+[Timer]
+OnCalendar= daily 2:30
+OnCalendar= daily *:*/15
+OnCalendar=Mon 6:00
+OnCalendar=Sat..Sun 8:00
+OnCalendar= 6..8-* 5:00
+OnCalendar= daily 9..18:00
+OnCalendar= daily 12..17:*/10
+OnCalendar=Fri *-*-22..31 11:45
+OnCalendar=Sat,Sun 6..8-* 0..6:*/10
+Persistent=true
+Unit=asdf.service
+
+[Install]
+WantedBy=timers.target

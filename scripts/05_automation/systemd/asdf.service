@@ -1,0 +1,9 @@
+[Unit]
+Description=Ejecuta /usr/bin/asdf
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/asdf
+User=ignacio
+Group=ignacio
+
