@@ -1,0 +1,9 @@
+[Unit]
+Description=Copia de seguridad entre semana
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/gestion_usuarios.sh
+User=root
+Group=root
+

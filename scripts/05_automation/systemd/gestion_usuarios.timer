@@ -1,0 +1,11 @@
+[Unit]
+Description=Timer diario para la copia de entresemana
+
+[Timer]
+OnCalendar=Mon..Fri 07:00
+OnCalendar=Mon..Fri 14:30
+Persistent=true
+Unit=gestion_usuarios.service
+
+[Install]
+WantedBy=timers.target
