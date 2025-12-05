@@ -1,0 +1,10 @@
+[Unit]
+Description=Iniciar script de gestion de usuarios
+
+[Service]
+Type=oneshot
+ExecStart=/git/ASO_MDC/scripts/05_automation/gestion_usuarios.sh
+User=root
+Group=root
+StandardOutput=append:/var/log/log_ejercicio.log
+StandardError=append:/var/log/log_ejercicio.log
