@@ -1,0 +1,8 @@
+[Unit]
+Description=Administración Usuarios Programado
+
+[Service]
+Type=oneshot
+ExecStart=/home/hugo/Escritorio/05_automation/usuarios.sh
+User=root
+Group=root

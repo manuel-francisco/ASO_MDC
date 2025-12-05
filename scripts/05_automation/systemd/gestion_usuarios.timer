@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer 07:00 y 14:30 todos los fin de semanas para usuarios.sh
+
+[Timer]
+OnCalendar=Sat,Sun 07:00 OnCalendar=Sat,Sun 14:30
+Persistent=true
+
+[Install]
+WantedBy=timer.target
