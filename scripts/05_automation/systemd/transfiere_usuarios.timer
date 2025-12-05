@@ -1,0 +1,12 @@
+[Unit]
+Description=Timer de transfiere_usuarios
+
+[Service]
+#A. Todos los días, menos los fines de semana
+OnCalendar=Mon,Tue,Wed,Thu,Fri *-*-*
+#B. A las 6:00 y 13:30
+OnCalendar=6:00 
+OnCalendar=13:30
+
+[Install]
+WantedBy=timers.target

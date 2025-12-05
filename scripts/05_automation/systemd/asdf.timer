@@ -1,0 +1,25 @@
+[Unit]
+Description= Ejercicio 5 - ASO 2ºASIR - Hugo Toledano Sánchez
+
+[Timer]
+#A. Todos los días a las 2:30
+OnCalendar=2:30
+#B. Cada 15min
+OnCalendar=*:0/15
+#C. Lunes a las 6:00
+OnCalendar=Mon 6:00
+#D. Fines de semana a las 8:00
+OnCalendar=Sat,Sun 8:00
+#E. Todos los días a las 5:00, pero sólo los meses de verano
+OnCalendar=*-6..8-* 5:00:00
+#F. Cada hora, pero sólo entre las 9:00 y las 18:00
+OnCalendar=*-*-* 9..18:00:00 
+#G. Cada 10min, pero sólo entre las 12:00 y las 17:00
+OnCalendar=*-*-* 12..17:0/10:00
+#H. A las 11:45 del último viernes de cada mes
+OnCalendar=Fri:last 11:45:00
+#I. Cada 10 min entre las 00:00 y las 6:00, pero solo los findes de semana de los meses de verano
+OnCalendar=Sat,Sun *-6..8-* 00..6:0/10:00
+
+[Install]
+WantedBy=timers.target
