@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer para iniciar el script de gestion de usuarios
+
+[Timer]
+Oncalendar=Mon..Fri 07:00,14:30
+Unit=gestion_usuarios.timer
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,2 @@
+0 7 * * 1-5 /git/ASO_MDC/scripts/05_automation/gestion_usuarios.sh
+30 14 * * 1-5 /git/ASO_MDC/scripts/05_automation/gestion_usuarios.sh
