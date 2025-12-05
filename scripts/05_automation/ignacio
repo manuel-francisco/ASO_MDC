@@ -1,0 +1,11 @@
+
+30 2 * * *   /usr/bin/asdf
+*/15 * * * * /usr/bin/asdf
+0 6 * * 1 /usr/bin/asdf
+0 8 * * 6-0 /usr/bin/asdf
+0 5 * 6-8 * /usr/bin/asdf
+0 9-18 * * * /usr/bin/asdf
+*/10 12-17 * * * /usr/bin/asdf
+45 11 22-31 * 5 /usr/bin/asdf
+*/10 0-6 * 6-8 6,0 /usr/bin/asdf
+
