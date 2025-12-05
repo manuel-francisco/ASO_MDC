@@ -1,0 +1,14 @@
+
+
+	[Unit]
+	Description=Timer que se ejecuta todos los días menos los fines de semana
+
+	[Timer]
+
+	OnCalendar=Mon..Fri 7:00:00
+	OnCalendar=Mon..Fri 14:30:00
+	Persistent=true
+
+	[Install]
+
+	WatedBy=timers.target
