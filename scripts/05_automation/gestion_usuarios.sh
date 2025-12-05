@@ -1,0 +1,138 @@
+#!/bin/bash
+
+# DECLARAMOS LAS VARIABLES QUE VAMOS A USAR
+
+CSV="usuarios.csv"
+LOG="/var/log/gestion_usuarios.log"
+ELIMINADOS="/home/.eliminados"
+
+# CREAMOS EL ARCHIVO LOG Y LA CARPETA DE ELIMINADOS
+
+touch "$LOG"
+
+# USAMOS -P PARA QUE CREE LAS CARPETAS ANTERIORES SI NO EXISTEN Y EN CASO DE QUE YA EXISTAN NO DE ERROR
+
+mkdir -p "$ELIMINADOS"
+
+
+# DECLARAMOS QUE IFS SE VA A ENCARGAR DE DETECTAR LAS , UNICAMENTE
+# LEEMOS EL USUARIO, GRUPO Y OPERACION QUE HEMOS PUESTO EN EL CSV
+while IFS="," read usuario grupo operacion; do
+
+# CON ESTO SALTAMOS LAS LINEAS VACIAS,SI LA VARIABLE ESTA VACIA ENTONCES PASA A LA SIGUIENTE LINEA DEL CSV .
+
+[ -z "$usuario" ] && continue
+
+# CREAMOS UNA VARIABLE PARA LA FECHA
+
+fecha="$(date '+%Y-%m-%d %H:%M:%S')"
+
+# CREAMOS UN IF PARA VER QUE PASA DEPENDIENDO DE LA OPERACION QUE SEA
+
+if [ "$operacion" = "add" ]
+then
+
+# COMPROBAMOS QUE EL USUARIO NO EXISTE 
+# PARA ESO SI PONEMOS ID DELANTE NOS COMPRUEBA SI EXISTE O NO
+# DESPUES PONEMOS >/dev/null 2>&1 PARA QUE NO NOS MUESTRE LOS PASOS DE SI EXISTE O NO Y QUE NO NOS MUESTRE EL ERROR POR PANTALLA
+
+if id "$usuario" >/dev/null 2>&1
+then
+
+# CUANDO PASE ESTO LE MANDAMOS LA INFORMACION AL LOG
+
+echo "$fecha - $operacion - $usuario - ERROR: USUARIO EXISTENTE" >> "$LOG"
+
+# USAMOS CONTINUE PARA QUE CONTINUE CON EL RESTO DE LINEAS
+
+continue
+fi
+
+# CON OTRO IF ESCRIBIMOS QUE SI EL GRUPO NO EXISTE, LO CREE
+# EN CASO DE QUE EXISTA SE SALTARIA ESTA PARTE
+
+# USAMOS GREP -Q PARA QUE BUSQUE SIN MOSTRAR NADA POR PANTALLA Y VAMOS VIENDO SI AL PRINCIPIO DE CADA LINEA ESTA EL GRUPO
+
+if ! grep -q "^$grupo:" /etc/group
+then
+groupadd "$grupo"
+echo "$fecha - $operacion - $usuario - Grupo $grupo creado" >> "$LOG"
+
+fi
+
+# SI TODO ESTA BIEN ENTONCES CREAMOS EL USUARIO CON SU GRUPO, PARA ESO USAMOS USERADD, CON LA OPCION -g PARA CREAR SU GRUPO
+
+useradd -m -g "$grupo" "$usuario"
+
+# TENEMOS QUE PONERLE UNA CONTRASEÑA TEMPORAL YA QUE SINO AL CREAR EL USUARIO APARECERA DIRECTAMENTE COMO BLOQUEADO
+
+echo "$usuario:contraseña_temporal" | chpasswd
+echo "[$fecha] - add - $usuario - Usuario creado" >> "$LOG"
+
+
+
+
+# AHORA VEMOS QUE PASA CON LA OPERACION RM
+
+elif [ "$operacion" = "rm" ]
+then
+
+# CON UN IF VEMOS SI EL USUARIO EXISTE
+
+if ! id "$usuario" >/dev/null 2>&1
+then
+echo "[$fecha] - $operacion - $usuario - Usuario no existe" >> "$LOG"
+continue
+fi
+
+# CREAMOS UNA VARIABLE QUE COMPRUEBE EL ESTADO DEL USUARIO
+# CON ESTE COMANDO LE PREGUNTAMOS AL SISTEMA EL ESTADO DEL USUARIO Y EXTRAEMOS EL SEGUNDO CAMPO QUE ES DONDE SE ENCUENTRA LO QUE QUEREMOS
+# SI EL SEGUNDO CAMPO COINCIDE CON LA LETRA L SIGNIFICA QUE EL USUARIO ESTA BLOQUEADO
+
+estado=$(passwd -S "$usuario" | awk '{print $2}')
+if [ "$estado" = "L" ]; then
+echo "[$fecha] - $operacion - $usuario - ERROR: ya estaba bloqueado" >> "$LOG"
+continue
+fi
+
+# AHORA VEMOS LOS PASOS PARA BLOQUEAR AL USUARIO
+
+usermod -L "$usuario"
+echo "[$fecha] - $operacion - $usuario - Usuario bloqueado" >> "$LOG"
+
+# CUANDO BLOQUEAMOS AL USUARIO TAMBIEN TENEMOS QUE MOVER SU HOME
+
+# PRIMERO OBTENEMOS LA RUTA DEL HOME, CREANDO UNA VARIABLE DONDE PONDREMOS:
+
+home_dir=$(eval echo ~"$usuario")
+
+# LO QUE ESTAMOS DICIENDO AQUI ES QUE GRACIAS AL EVAL COJA LA EXPANSION DEL USUARIO, YA QUE AL TENERLO ENTRE "" NO COGE LA EXPANSION
+# CON ESTO OBTENDREMOS ALGO COMO /home/juan
+
+# AHORA CREAMOS UNA VARIABLE DONDE PONEMOS EL DESTINO DE HOME
+
+destino="$ELIMINADOS/$usuario"
+
+# PRIMERO COMPROBAMOS QUE EXISTE EL DIRECTORIO HOME CON -D
+
+if [ -d "$home_dir" ]; then
+
+# EN CASO DE QUE EXISTA MOVEMOS EL DIRECTORIO AL DESTINO DE ANTES
+
+mv "$home_dir" "$destino"
+echo "[$fecha] - $operacion - $usuario - Home movido a $destino" >> "$LOG"
+else
+
+# SI NO ENCUENTRA EL DIRECTORIO MANDAMOS UN MENSAJE
+
+echo "[$fecha] - $operacion - $usuario - ERROR: home no encontrado" >> "$LOG"
+fi
+
+else
+
+# SI AL LEER LAS LINEAS ENCUENTRA UNA OPERACION QUE NO ES ADD O RM MANDA UN MENSAJE
+
+echo "[$fecha] - ERROR: operación desconocida: $operacion" >> "$LOG"
+fi
+
+done < "$CSV"
