@@ -1,0 +1,11 @@
+
+
+	[Unit]
+
+	Description=Comando que transfiere el fichero usuario.csv a las IPs que estan en el fichero remoto.txt
+
+	[Service]
+	Type=oneshot
+	WorkingDirectory=/home/usuario/ASO_MDC/scripts/05_automation
+	ExecStart=/home/usuario/ASO_MDC/scripts/05_automation/transfiere_usuario.sh
+	User=root

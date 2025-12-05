@@ -1,0 +1,12 @@
+
+
+	[Unit]
+
+	Description=Comando que examina un archivo csv
+
+	[Service]
+
+	Type=oneshot
+	WorkingDirectory=/home/usuario/ASO_MDC/scripts/05_automation
+	ExecStart=/home/usuario/ASO_MDC/scripts/05_automation
+	User=root
