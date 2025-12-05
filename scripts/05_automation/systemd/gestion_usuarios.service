@@ -1,0 +1,7 @@
+[Unit]
+Description=Gestion automática de usuarios desde CSV
+
+[Service]
+Type=oneshot
+ExecStart=/root/gestion_usuarios.sh
+User=root
