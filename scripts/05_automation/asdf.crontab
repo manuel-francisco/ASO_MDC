@@ -1,0 +1,18 @@
+#A. Todos los días a las 2:30
+30 2 * * * /usr/bin/asdf
+#B. Cada 15min
+*/15 * * * /usr/bin/asdf
+#C. Lunes a las 6:00
+00 6 * * 1 /usr/bin/asdf
+#D. Fines de semana a las 8:00
+00 8 * * 0,6 /usr/bin/asdf
+#E. Todos los días a las 5:00, pero sólo los meses de verano
+00 5 * 6-8 * /usr/bin/asdf
+#F. Cada hora, pero sólo entre las 9:00 y las 18:00
+0 12-17 * * * /usr/bin/asdf
+#G. Cada 10min, pero sólo entre las 12:00 y las 17:00
+*/10 12-17 * * * /usr/bin/asdf
+#H. A las 11:45 del último viernes de cada mes
+45 11 25-31 * 5 /usr/bin/asdf
+#I. Cada 10 min entre las 00:00 y las 6:00, pero solo los findes de semana de los meses de verano
+*/10 0-6 * 6-8 6,0 /usr/bin/asdf

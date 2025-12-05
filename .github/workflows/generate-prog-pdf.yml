@@ -1,0 +1,76 @@
+name: Generate Programacion PDF
+
+on:
+  push:
+    paths:
+      - 'Programación/README.md'
+      - 'Programación/SINTESIS.md'
+      - '.github/workflows/generate-prog-pdf.yml'
+  pull_request:
+    paths:
+      - 'Programación/README.md'
+      - 'Programación/SINTESIS.md'
+      - '.github/workflows/generate-prog-pdf.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc, LaTeX and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra texlive-lang-spanish fonts-liberation fonts-noto
+          sudo fc-cache -fv
+
+      - name: Convert README.md to PDF
+        working-directory: Programación
+        run: |
+          REV=$(date +"%d/%m/%Y")
+          pandoc README.md \
+          --template=template.tex \
+          --pdf-engine=xelatex \
+          -V mainfont="Liberation Sans" \
+          -V fallbackfont="Noto Sans" \
+          -V TITLE="Administración de Sistemas Operativos" \
+          -V CODIGO="0374" \
+          -V CICLO="Ciclo Formativo de Grado Superior de Administración de Sistemas Informáticos en Red" \
+          -V CURSO="2025-2026" \
+          -V REVISION="$REV" \
+          -V IES="IES Mar de Cádiz" \
+          -V DPTO="Dpto. Informática y Comunicaciones" \
+          -V CIUDAD="El Puerto de Santa María" \
+          -V PROVINCIA="Cádiz" \
+          -o programacion_ASO.pdf
+      
+
+      - name: Convert SINTESIS.md to PDF
+        working-directory: Programación
+        run: |
+          REV=$(date +"%d/%m/%Y")
+          pandoc SINTESIS.md \
+          --template=template_sintesis.tex \
+          --pdf-engine=xelatex \
+          -V mainfont="Liberation Sans" \
+          -V fallbackfont="Noto Sans" \
+          -V TITLE="Administración de Sistemas Operativos" \
+          -V CODIGO="0374" \
+          -V CICLO="Ciclo Formativo de Grado Superior de Administración de Sistemas Informáticos en Red" \
+          -V CURSO="2025-2026" \
+          -V REVISION="$REV" \
+          -V IES="IES Mar de Cádiz" \
+          -V DPTO="Dpto. Informática y Comunicaciones" \
+          -V CIUDAD="El Puerto de Santa María" \
+          -V PROVINCIA="Cádiz" \
+          -o sintesis_ASO.pdf
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: aso_pdfs
+          path: |
+            Programación/programacion_ASO.pdf
+            Programación/sintesis_ASO.pdf

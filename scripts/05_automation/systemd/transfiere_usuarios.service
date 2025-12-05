@@ -1,0 +1,8 @@
+[Unit]
+Description=Transfiere .csv a ordenador de compañero
+
+[Service]
+Type=Oneshot
+ExecStart=/home/hugo/Escritorio/transfiere_usuarios.sh
+User=hugo
+Group=hugo

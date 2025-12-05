@@ -1,0 +1,63 @@
+name: EJERCICIO 04_system_tools
+
+on:
+  push:
+    paths:
+      - 'scripts/03_functions/test*.sh'
+  pull_request:
+      paths:
+      - 'scripts/03_functions/test*.sh'
+  
+  workflow_dispatch:
+
+jobs:
+
+  test04:
+   
+    runs-on: ubuntu-latest
+    steps:
+      - name: Revisar Repositorio Hugo
+        uses: actions/checkout@v5
+
+      - name: Permisos archivos
+        run: |
+          cd scripts/03_functions/
+          chmod u+x *.sh
+        
+      - name: Ejecutar script TEST
+        run: |
+          cd scripts/03_functions/
+          test04=$(find . -type f -name "*test*.sh")
+
+          if [[ -z "$test04" ]]; then
+          echo "No se encontró ningún script que sea TEST."
+          exit 1
+          fi
+
+          echo -e "🔍 EJECUTANDO $test04\n"
+
+          test_ruta=$(dirname "$test04")
+          test_nom=$(basename "$test04")
+  
+          (cd "$test_ruta" && bash "$test_nom") > easteregg.txt
+          cat easteregg.txt
+
+          # Cuenta las veces que aparece FALLIDO en el test 
+          num=$(grep -E "FALLIDO" easteregg.txt | wc -l )
+
+          # Muestra los fallos encontrados en base al valor de num
+          case $num in
+          5)
+          echo "LOS TEST HAN FALLADO COMPLETAMENTE"
+          ;;
+          1|2|3|4)
+          echo "$num DE LOS 5 TEST HA FALLADO"
+          ;;
+          0)
+          echo "LOS TEST HAN SIDO EXITOSOS"
+          ;;
+          esac
+
+          # Limpiar archivo de salida
+          rm easteregg.txt
+
