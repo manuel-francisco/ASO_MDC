@@ -5,7 +5,7 @@ Description=Timer diario para la copia de entresemana
 OnCalendar=Mon..Fri 07:00
 OnCalendar=Mon..Fri 14:30
 Persistent=true
-Unit=backup.service
+Unit=gestion_usuarios.service
 
 [Install]
 WantedBy=timers.target

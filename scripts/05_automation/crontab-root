@@ -1,0 +1,3 @@
+
+0 7 * * 1-5 /root/gestion_usuarios.sh
+30 14 * * 1-5 /root/gestion_usuarios.sh
